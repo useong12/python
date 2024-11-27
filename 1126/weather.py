@@ -36,7 +36,8 @@ def main():
         elif int(ch) == 4:
             add_data()
         elif int(ch) == 5:
-            print(weather_data)
+            print("현재 저장된 날씨 데이터 : ")
+            weather_print()
         else:
             print("1~6 사이의 숫자를 입력해주세요")
             continue
@@ -88,7 +89,7 @@ def weather_rain():
         if city_data:
             rain = list(map(lambda x: x[3], city_data))
             rain = list(filter(lambda x: x > 0, rain))
-            print(f"{city}의 총 강수량 : {sum(rain)}mm")
+            print(f"{city}의 총 강수량 : {sum(rain):.1f}mm")
             print(f"{city}의 강수량이 있었던 날 : {len(rain)}일")
 
         else:
@@ -98,17 +99,24 @@ def weather_rain():
 def add_data():
     new_data = []
 
-    data = input("날짜를 입력하세요 (YYYY-MM-DD) : ")
-    new_data.append(data)
-    data = input("도시를 입력하세요 : ")
-    new_data.append(data)
-    data = input("평균기온을 입력하세요 : ")
-    new_data.append(data)
-    data = input("강수량을 입력하세요 : ")
-    new_data.append(data)
+    date = input("날짜를 입력하세요 (YYYY-MM-DD) : ")
+    new_data.append(date)
+    city = input("도시를 입력하세요 : ")
+    new_data.append(city)
+    temp = float(input("평균기온을 입력하세요 : "))
+    new_data.append(temp)
+    rain = float(input("강수량을 입력하세요 : "))
+    new_data.append(rain)
 
     weather_data.append(new_data)
-    print(weather_data)
+    print(f"{city}의 날씨 데이터가 추가되었습니다.")
+
+
+def weather_print():
+    for data in weather_data:
+        date, city, temperature, rain = data
+        print(f"날짜 : {date}, 도시 : {city}, 평균기온 : {
+              temperature:.1f}\u2103, 강수량 : {rain:.1f}mm")
 
 
 main()
