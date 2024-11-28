@@ -182,7 +182,7 @@ market1 = Supermarket("마포구 염라동", "마켓온", "음료", 12)
 market1.print_location()
 market1.show_list()
 market1.show_info()
-'''
+
 # 정보은닉
 
 
@@ -213,3 +213,35 @@ p1.setname("홍길동")
 print(p1.getname())
 p1.setage(20)
 print(p1.getage())
+'''
+# @propery(데코레이터)를 이용한 getter,setter 사용
+
+
+class Person:
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    # getter
+    @property
+    def name(self):
+        return self._name
+
+    # setter
+    @name.setter
+    def name(self, value):
+        self._name = value
+
+    @property
+    def age(self):
+        return self._age
+
+    @age.setter
+    def age(self, value):
+        self._age = value
+
+
+p1 = Person("홍길동", 20)
+p1.name = "이몽룡"
+print(p1.name)
+print(p1.age)

@@ -6,17 +6,15 @@ class Person:
 
     def workout(self, workout):
         print(f"{workout}시간 운동하다")
-        if self._hp == 100:
+        self._hp += workout
+        if self._hp >= 100:
             self._hp = 100
-        else:
-            self._hp += workout
 
     def drink(self, drink):
         print(f"술을 {drink}잔 마시다")
-        if self._hp == 1:
+        self._hp -= drink
+        if self._hp <= 1:
             self._hp = 1
-        else:
-            self._hp -= drink
 
     def print_info(self):
         print(f"{self._name} - hp : {self._hp}")
@@ -43,6 +41,7 @@ p1.print_info()
 
 p2 = Person()
 p2.set_name("나약해")
+p2.set_hp(20)
 p2.workout(1)
 p2.drink(12)
 p2.print_info()
