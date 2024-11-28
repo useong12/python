@@ -128,8 +128,8 @@ electricity_usage = [
 class ElectricityData(ABC):
 
     def __init__(self, usage_data):
-        self._usage_data = usage_data
-        self._total_usage = self.calculate_total_usage()
+        self.__usage_data = usage_data
+        self.__total_usage = self.calculate_total_usage()
 
     @abstractmethod
     def calculate_total_usage(self):
@@ -147,22 +147,24 @@ class ElectricityData(ABC):
     def remove_usage(self, date):
         for item in self._usage_data:
             if item["date"] == date:
+                self._usage_data.remove(item)
+                break
 
     @property
-    def _usage_date(self):
-        return _usage_date
+    def usage_data(self):
+        return self.__usage_data
 
-    @_usage_data.setter
-    def _usage_data(self, value):
-        _usage_data = value
+    @usage_data.setter
+    def usage_data(self, value):
+        self.__usage_data = value
 
     @property
-    def _total_date(self):
-        return _usage_date
+    def total_usage(self):
+        return self.__total_usage
 
-    @_total_data.setter
-    def _total_data(self, value):
-        _total_data = value
+    @total_usage.setter
+    def total_usage(self, value):
+        self.__total_usage = value
 
 
 class HomeElectricityData(ElectricityData):
@@ -170,8 +172,10 @@ class HomeElectricityData(ElectricityData):
     def __init__(self, usage_data):
         super().__init__(usage_data)
 
-    def calculate_total_usage(self, usage_data):
-        _total_usage = sum(item["usage"] for item in self._usage_data)
+    def calculate_total_usage(self):
+        total = sum(item["usage"] for item in self._usage_data)
+        print(f"총 전력 사용량 : {total}")
+        return total
 
     def get_usage_on_date(self, date):
         for item in self._usage_data:
@@ -181,4 +185,22 @@ class HomeElectricityData(ElectricityData):
                 None
 
     @classmethod
-    def date_filter(cls, date):
+    def date_filter(cls, usage_data, start_date, end_date):
+        filtered_data = [
+            item for item in usage_data if start_date <= item["date"] <= end_date]
+        print(f"특정 날짜 범위 내 사용량 : {filtered_data}")
+        return filtered_data
+
+
+class FindMinMAx:
+
+    @staticmethod
+    def max_usage(self):
+        for item in electricity_usage:
+            max_usage = item["usage"]
+            if max_usage < item["usage"]:
+                max_usage = item["usage"]
+
+
+elec = HomeElectricityData(electricity_usage)
+elec.calculate_total_usage()
