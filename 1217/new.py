@@ -2,7 +2,7 @@ import folium
 import requests
 import pandas as pd
 
-API_KEY = '941bc637512a1475788bb5048695169f'
+API_KEY = ''
 
 # 날씨 데이터 가져오기
 
