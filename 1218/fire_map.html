@@ -1,0 +1,3701 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39fcc25c35461af9e77d6130662a2667 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_39fcc25c35461af9e77d6130662a2667" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_39fcc25c35461af9e77d6130662a2667 = L.map(
+                "map_39fcc25c35461af9e77d6130662a2667",
+                {
+                    center: [37.0, 127.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_23f2c232f8221336b5bd5276de5118c6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_23f2c232f8221336b5bd5276de5118c6.addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var marker_85759da2977ca15252ba14b401ea6867 = L.marker(
+                [33.8451, -95.5874],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_3554fd7b4cd3e1940e8d560f11d12438 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_85759da2977ca15252ba14b401ea6867.setIcon(icon_3554fd7b4cd3e1940e8d560f11d12438);
+        
+    
+        var popup_77b712ee8b8a56f15ae72822e830b475 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_71a654eed2591916b98a121927e9ee0e = $(`<div id="html_71a654eed2591916b98a121927e9ee0e" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-16T09:29:00Z<br/>     <b>title:</b>Rx Lamar 3440 Wildfire, Lamar, Texas<br/>      </div>`)[0];
+                popup_77b712ee8b8a56f15ae72822e830b475.setContent(html_71a654eed2591916b98a121927e9ee0e);
+            
+        
+
+        marker_85759da2977ca15252ba14b401ea6867.bindPopup(popup_77b712ee8b8a56f15ae72822e830b475)
+        ;
+
+        
+    
+    
+            var marker_be8dd584b3a44e5044e0d032593317e3 = L.marker(
+                [34.088933, -112.200767],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_f8de3502d922c0a1ff4715f6df82fc08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_be8dd584b3a44e5044e0d032593317e3.setIcon(icon_f8de3502d922c0a1ff4715f6df82fc08);
+        
+    
+        var popup_5c21cd24415631832434a32e5efda7d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b832b23a475596e584bbd4ed4bc040f9 = $(`<div id="html_b832b23a475596e584bbd4ed4bc040f9" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-15T15:55:00Z<br/>     <b>title:</b>Soap Wildfire, Yavapai, Arizona<br/>      </div>`)[0];
+                popup_5c21cd24415631832434a32e5efda7d1.setContent(html_b832b23a475596e584bbd4ed4bc040f9);
+            
+        
+
+        marker_be8dd584b3a44e5044e0d032593317e3.bindPopup(popup_5c21cd24415631832434a32e5efda7d1)
+        ;
+
+        
+    
+    
+            var marker_ef869594f47b92702ac3a3298896f905 = L.marker(
+                [27.669495, -81.332645],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_2ab0adb2033945128273ebc589567110 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ef869594f47b92702ac3a3298896f905.setIcon(icon_2ab0adb2033945128273ebc589567110);
+        
+    
+        var popup_1de6742964ed2714372b11b41a8f342e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f75d87bd2133988fd1e3a06fedf2725 = $(`<div id="html_4f75d87bd2133988fd1e3a06fedf2725" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-15T15:55:00Z<br/>     <b>title:</b>APQ Rec Area 4 Rx 1215 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_1de6742964ed2714372b11b41a8f342e.setContent(html_4f75d87bd2133988fd1e3a06fedf2725);
+            
+        
+
+        marker_ef869594f47b92702ac3a3298896f905.bindPopup(popup_1de6742964ed2714372b11b41a8f342e)
+        ;
+
+        
+    
+    
+            var marker_4534924705bc8d6a7ac355b833eb7265 = L.marker(
+                [13.871897560840004, 12.542507299986001],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_7679be98693c5d42d064a0fa81ac6e0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4534924705bc8d6a7ac355b833eb7265.setIcon(icon_7679be98693c5d42d064a0fa81ac6e0e);
+        
+    
+        var popup_3dc3ef82790b82e5e261f247897a5474 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_67189e2ce6ee732a815f6f2f13b7aeab = $(`<div id="html_67189e2ce6ee732a815f6f2f13b7aeab" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-13T19:00:00Z<br/>     <b>title:</b>Wildfire in Niger 1023069<br/>      </div>`)[0];
+                popup_3dc3ef82790b82e5e261f247897a5474.setContent(html_67189e2ce6ee732a815f6f2f13b7aeab);
+            
+        
+
+        marker_4534924705bc8d6a7ac355b833eb7265.bindPopup(popup_3dc3ef82790b82e5e261f247897a5474)
+        ;
+
+        
+    
+    
+            var marker_ca2af5bb231c8e312c50d528d698473b = L.marker(
+                [8.940257014081748, -3.7793502188578807],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_95aa13076fa7a44ca57ad8a3721eb1b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca2af5bb231c8e312c50d528d698473b.setIcon(icon_95aa13076fa7a44ca57ad8a3721eb1b4);
+        
+    
+        var popup_f7bbb3fc7064e8438f632d1246c2b444 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_955ea256620971ebcc0983757e9d7cb6 = $(`<div id="html_955ea256620971ebcc0983757e9d7cb6" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-13T19:00:00Z<br/>     <b>title:</b>Wildfire in Cote d&#039;Ivoire 1023074<br/>      </div>`)[0];
+                popup_f7bbb3fc7064e8438f632d1246c2b444.setContent(html_955ea256620971ebcc0983757e9d7cb6);
+            
+        
+
+        marker_ca2af5bb231c8e312c50d528d698473b.bindPopup(popup_f7bbb3fc7064e8438f632d1246c2b444)
+        ;
+
+        
+    
+    
+            var marker_b913a91d6ec840bc79634e96e295717a = L.marker(
+                [6.353746851121146, 29.241926081242337],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_4fb2eb11a288064f1ddf8889d5229903 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b913a91d6ec840bc79634e96e295717a.setIcon(icon_4fb2eb11a288064f1ddf8889d5229903);
+        
+    
+        var popup_3d5d7c6ba4eae6a204069a390255e51d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7d76c8ddc2ed2cee3d3adbc0ddb8d5e4 = $(`<div id="html_7d76c8ddc2ed2cee3d3adbc0ddb8d5e4" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-13T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023076<br/>      </div>`)[0];
+                popup_3d5d7c6ba4eae6a204069a390255e51d.setContent(html_7d76c8ddc2ed2cee3d3adbc0ddb8d5e4);
+            
+        
+
+        marker_b913a91d6ec840bc79634e96e295717a.bindPopup(popup_3d5d7c6ba4eae6a204069a390255e51d)
+        ;
+
+        
+    
+    
+            var marker_5eddaaa47f7d6a569478cacf59ca420b = L.marker(
+                [-21.788925568901377, 145.76573525724984],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_2d16c7780dc8b7a4e36cc3f9364fed20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5eddaaa47f7d6a569478cacf59ca420b.setIcon(icon_2d16c7780dc8b7a4e36cc3f9364fed20);
+        
+    
+        var popup_4eba51b2c8a3e7407bea678b1284f4e0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_049707acc8c55d179ac97d09a63a10c9 = $(`<div id="html_049707acc8c55d179ac97d09a63a10c9" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-13T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023077<br/>      </div>`)[0];
+                popup_4eba51b2c8a3e7407bea678b1284f4e0.setContent(html_049707acc8c55d179ac97d09a63a10c9);
+            
+        
+
+        marker_5eddaaa47f7d6a569478cacf59ca420b.bindPopup(popup_4eba51b2c8a3e7407bea678b1284f4e0)
+        ;
+
+        
+    
+    
+            var marker_c3d73f9a7a61eadf37dabc832076610e = L.marker(
+                [-19.968007239287235, 138.8801871658071],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_54f673eed3d7b318d99c4e79211dd7c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c3d73f9a7a61eadf37dabc832076610e.setIcon(icon_54f673eed3d7b318d99c4e79211dd7c6);
+        
+    
+        var popup_c767cebef09879680f8c7e692759c93b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dfca4709ca0796be271d489c9f3d806 = $(`<div id="html_6dfca4709ca0796be271d489c9f3d806" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-13T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023080<br/>      </div>`)[0];
+                popup_c767cebef09879680f8c7e692759c93b.setContent(html_6dfca4709ca0796be271d489c9f3d806);
+            
+        
+
+        marker_c3d73f9a7a61eadf37dabc832076610e.bindPopup(popup_c767cebef09879680f8c7e692759c93b)
+        ;
+
+        
+    
+    
+            var marker_64820f5ac415e6e9ee600c39d424c07a = L.marker(
+                [27.682825, -81.328526],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_261e6be2c6c8bf2d1c33b1351d67fb65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64820f5ac415e6e9ee600c39d424c07a.setIcon(icon_261e6be2c6c8bf2d1c33b1351d67fb65);
+        
+    
+        var popup_2b9032849323cb7540408a3a646bd8aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5af96845d46bf6c003cacf07f932e6b6 = $(`<div id="html_5af96845d46bf6c003cacf07f932e6b6" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-13T08:02:00Z<br/>     <b>title:</b>APQ Recreation Area 3 Rx 1213 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_2b9032849323cb7540408a3a646bd8aa.setContent(html_5af96845d46bf6c003cacf07f932e6b6);
+            
+        
+
+        marker_64820f5ac415e6e9ee600c39d424c07a.bindPopup(popup_2b9032849323cb7540408a3a646bd8aa)
+        ;
+
+        
+    
+    
+            var marker_f10629e3834e2493b6d2367ec7061cd9 = L.marker(
+                [7.125505061161163, 26.628084592014233],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_77c167335f81d8c7be726488d6c9e5d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f10629e3834e2493b6d2367ec7061cd9.setIcon(icon_77c167335f81d8c7be726488d6c9e5d4);
+        
+    
+        var popup_9b5b5122aa2f221fe93b2580d44e3fc6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6be587375c37dd6020cf09df0b4efb52 = $(`<div id="html_6be587375c37dd6020cf09df0b4efb52" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-12T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023071<br/>      </div>`)[0];
+                popup_9b5b5122aa2f221fe93b2580d44e3fc6.setContent(html_6be587375c37dd6020cf09df0b4efb52);
+            
+        
+
+        marker_f10629e3834e2493b6d2367ec7061cd9.bindPopup(popup_9b5b5122aa2f221fe93b2580d44e3fc6)
+        ;
+
+        
+    
+    
+            var marker_ae3b1a5bf05d244833ff5dd3abd7cb8e = L.marker(
+                [9.048220600285456, -3.674344876939678],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_d9a39173c5454f280085aafb3a916371 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ae3b1a5bf05d244833ff5dd3abd7cb8e.setIcon(icon_d9a39173c5454f280085aafb3a916371);
+        
+    
+        var popup_de99a25d0da735b9cdcc2edb56a23107 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86da3b2a37f369d33e6130720c2bdafd = $(`<div id="html_86da3b2a37f369d33e6130720c2bdafd" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-12T19:00:00Z<br/>     <b>title:</b>Wildfire in Cote d&#039;Ivoire 1023081<br/>      </div>`)[0];
+                popup_de99a25d0da735b9cdcc2edb56a23107.setContent(html_86da3b2a37f369d33e6130720c2bdafd);
+            
+        
+
+        marker_ae3b1a5bf05d244833ff5dd3abd7cb8e.bindPopup(popup_de99a25d0da735b9cdcc2edb56a23107)
+        ;
+
+        
+    
+    
+            var marker_6a31fc6d05be0c625bd0f874b7b86c1f = L.marker(
+                [27.731616, -81.398735],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_1f776477d7db31b4c19a95be23a79097 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a31fc6d05be0c625bd0f874b7b86c1f.setIcon(icon_1f776477d7db31b4c19a95be23a79097);
+        
+    
+        var popup_d93dba43b3b840dbf5c4b2f264975469 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_06fef46f52c59d22f09cf91e992f9aee = $(`<div id="html_06fef46f52c59d22f09cf91e992f9aee" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-12T13:16:00Z<br/>     <b>title:</b>APQ Recreation Area 1 &amp; 2 Rx 1212 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_d93dba43b3b840dbf5c4b2f264975469.setContent(html_06fef46f52c59d22f09cf91e992f9aee);
+            
+        
+
+        marker_6a31fc6d05be0c625bd0f874b7b86c1f.bindPopup(popup_d93dba43b3b840dbf5c4b2f264975469)
+        ;
+
+        
+    
+    
+            var marker_32490234e2b01120cd02463372f6ccb3 = L.marker(
+                [31.01, -92.923],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_9eb2e22059162414b02caadc1f86c50e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_32490234e2b01120cd02463372f6ccb3.setIcon(icon_9eb2e22059162414b02caadc1f86c50e);
+        
+    
+        var popup_6e3ab773453eaa1ab840598cefb97a70 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a3bad0387f4706f72bee2e78280f4d71 = $(`<div id="html_a3bad0387f4706f72bee2e78280f4d71" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-12T09:02:00Z<br/>     <b>title:</b>RX CALV C-133 Wildfire, Vernon, Louisiana<br/>      </div>`)[0];
+                popup_6e3ab773453eaa1ab840598cefb97a70.setContent(html_a3bad0387f4706f72bee2e78280f4d71);
+            
+        
+
+        marker_32490234e2b01120cd02463372f6ccb3.bindPopup(popup_6e3ab773453eaa1ab840598cefb97a70)
+        ;
+
+        
+    
+    
+            var marker_4074fb1051bb85ad2d0ae718081705ac = L.marker(
+                [8.295831819972008, 26.338688185352478],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_a10e1278897ebb43d87ea39009443b62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4074fb1051bb85ad2d0ae718081705ac.setIcon(icon_a10e1278897ebb43d87ea39009443b62);
+        
+    
+        var popup_d6fb52f644733281414f799181a30e8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f913b86b1347980c57ae127c6fe86066 = $(`<div id="html_f913b86b1347980c57ae127c6fe86066" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-11T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023070<br/>      </div>`)[0];
+                popup_d6fb52f644733281414f799181a30e8f.setContent(html_f913b86b1347980c57ae127c6fe86066);
+            
+        
+
+        marker_4074fb1051bb85ad2d0ae718081705ac.bindPopup(popup_d6fb52f644733281414f799181a30e8f)
+        ;
+
+        
+    
+    
+            var marker_23976a4936bb41c8155773850fe98950 = L.marker(
+                [9.576710596045281, 29.74832521540173],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_1d32502324b8e053d3fa7ff94187ee5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_23976a4936bb41c8155773850fe98950.setIcon(icon_1d32502324b8e053d3fa7ff94187ee5c);
+        
+    
+        var popup_8a38eea621e80b5e8607d7bc28a590a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_12ff6120ed3d3ebcfc5f9588d340fd0d = $(`<div id="html_12ff6120ed3d3ebcfc5f9588d340fd0d" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-11T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023079<br/>      </div>`)[0];
+                popup_8a38eea621e80b5e8607d7bc28a590a1.setContent(html_12ff6120ed3d3ebcfc5f9588d340fd0d);
+            
+        
+
+        marker_23976a4936bb41c8155773850fe98950.bindPopup(popup_8a38eea621e80b5e8607d7bc28a590a1)
+        ;
+
+        
+    
+    
+            var marker_c9294e3f7411f180835c0a098031e0b7 = L.marker(
+                [33.761389, -95.951944],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_fdd616f70fe9140ddaada41025d5ae37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9294e3f7411f180835c0a098031e0b7.setIcon(icon_fdd616f70fe9140ddaada41025d5ae37);
+        
+    
+        var popup_cc4796addf8ee064e5533dfc219e38b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7afc4af13bc473e061b063798a043842 = $(`<div id="html_7afc4af13bc473e061b063798a043842" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-11T10:07:00Z<br/>     <b>title:</b>LBJ Bois d&#039;Arc RX Wildfire, Fannin, Texas<br/>      </div>`)[0];
+                popup_cc4796addf8ee064e5533dfc219e38b6.setContent(html_7afc4af13bc473e061b063798a043842);
+            
+        
+
+        marker_c9294e3f7411f180835c0a098031e0b7.bindPopup(popup_cc4796addf8ee064e5533dfc219e38b6)
+        ;
+
+        
+    
+    
+            var marker_4be6dfd2e74f2a224646b0e85d40244d = L.marker(
+                [12.328266420489443, 20.38477446899014],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_990f80997333cff0b807742f721fce1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4be6dfd2e74f2a224646b0e85d40244d.setIcon(icon_990f80997333cff0b807742f721fce1d);
+        
+    
+        var popup_6d965e26c6922b967f8803cb780fb1ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_67cfedd7913adb438994b97e22371aff = $(`<div id="html_67cfedd7913adb438994b97e22371aff" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-10T19:00:00Z<br/>     <b>title:</b>Wildfire in Chad 1023064<br/>      </div>`)[0];
+                popup_6d965e26c6922b967f8803cb780fb1ad.setContent(html_67cfedd7913adb438994b97e22371aff);
+            
+        
+
+        marker_4be6dfd2e74f2a224646b0e85d40244d.bindPopup(popup_6d965e26c6922b967f8803cb780fb1ad)
+        ;
+
+        
+    
+    
+            var marker_6c2e26392ec186045625f330ecfd7028 = L.marker(
+                [13.574523301996058, -4.086337655737058],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_b3bcc450a82319a48e2f5101a9b9c23b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c2e26392ec186045625f330ecfd7028.setIcon(icon_b3bcc450a82319a48e2f5101a9b9c23b);
+        
+    
+        var popup_a79af03a5c0714fcc1477328594cfb86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c2134ea4e66a16732da8974d04486bdc = $(`<div id="html_c2134ea4e66a16732da8974d04486bdc" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-10T19:00:00Z<br/>     <b>title:</b>Wildfire in Mali 1023078<br/>      </div>`)[0];
+                popup_a79af03a5c0714fcc1477328594cfb86.setContent(html_c2134ea4e66a16732da8974d04486bdc);
+            
+        
+
+        marker_6c2e26392ec186045625f330ecfd7028.bindPopup(popup_a79af03a5c0714fcc1477328594cfb86)
+        ;
+
+        
+    
+    
+            var marker_108be87d0fcc1038c992b4a7597cbc2e = L.marker(
+                [27.694373, -81.343675],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_d1220a17a2c4c2dfa8c43e74bab3ea3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_108be87d0fcc1038c992b4a7597cbc2e.setIcon(icon_d1220a17a2c4c2dfa8c43e74bab3ea3b);
+        
+    
+        var popup_83851f4f3f5e15aa33b3cf6222b7c0dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_88e0d44e75199f16174750fef2f8f518 = $(`<div id="html_88e0d44e75199f16174750fef2f8f518" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-10T09:16:00Z<br/>     <b>title:</b>APQ Recreation Area 3 Rx 1210 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_83851f4f3f5e15aa33b3cf6222b7c0dc.setContent(html_88e0d44e75199f16174750fef2f8f518);
+            
+        
+
+        marker_108be87d0fcc1038c992b4a7597cbc2e.bindPopup(popup_83851f4f3f5e15aa33b3cf6222b7c0dc)
+        ;
+
+        
+    
+    
+            var marker_31a95a08de0aca88aa70f7779bbf3168 = L.marker(
+                [34.06343, -118.69642],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_2411ab9528c8398ac37c02867040746d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_31a95a08de0aca88aa70f7779bbf3168.setIcon(icon_2411ab9528c8398ac37c02867040746d);
+        
+    
+        var popup_0a406a818ce735043730fb53c0b487a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80e1094e683830891997603ee4eede7d = $(`<div id="html_80e1094e683830891997603ee4eede7d" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-10T01:54:00Z<br/>     <b>title:</b>FRANKLIN Wildfire, Los Angeles, California<br/>      </div>`)[0];
+                popup_0a406a818ce735043730fb53c0b487a9.setContent(html_80e1094e683830891997603ee4eede7d);
+            
+        
+
+        marker_31a95a08de0aca88aa70f7779bbf3168.bindPopup(popup_0a406a818ce735043730fb53c0b487a9)
+        ;
+
+        
+    
+    
+            var marker_e369d4d921a3e0ff72896b9f14524308 = L.marker(
+                [-20.944109924452626, 147.53236806064731],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_86c4240b7340c8be2f9408c9fcf10bb9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e369d4d921a3e0ff72896b9f14524308.setIcon(icon_86c4240b7340c8be2f9408c9fcf10bb9);
+        
+    
+        var popup_d409ca851c9f22f0e6e60dd697a5244c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2598c3e7ccc59e830257ffc1ca6a585b = $(`<div id="html_2598c3e7ccc59e830257ffc1ca6a585b" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-09T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023057<br/>      </div>`)[0];
+                popup_d409ca851c9f22f0e6e60dd697a5244c.setContent(html_2598c3e7ccc59e830257ffc1ca6a585b);
+            
+        
+
+        marker_e369d4d921a3e0ff72896b9f14524308.bindPopup(popup_d409ca851c9f22f0e6e60dd697a5244c)
+        ;
+
+        
+    
+    
+            var marker_165fd899c3d9216d65ecafa6d78c83b8 = L.marker(
+                [6.4903658282521866, 28.16562823440938],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_ef243b5d30943ecc5b9c364c0659f21c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_165fd899c3d9216d65ecafa6d78c83b8.setIcon(icon_ef243b5d30943ecc5b9c364c0659f21c);
+        
+    
+        var popup_87ccfd3773c715c0cf11429933062402 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_56cf83914765e67bfa04aa4c8b4058e1 = $(`<div id="html_56cf83914765e67bfa04aa4c8b4058e1" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-09T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023058<br/>      </div>`)[0];
+                popup_87ccfd3773c715c0cf11429933062402.setContent(html_56cf83914765e67bfa04aa4c8b4058e1);
+            
+        
+
+        marker_165fd899c3d9216d65ecafa6d78c83b8.bindPopup(popup_87ccfd3773c715c0cf11429933062402)
+        ;
+
+        
+    
+    
+            var marker_27bf83b6a77912a8532dbb95db1926e7 = L.marker(
+                [9.850968371808957, -4.6365430552399705],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_b19e7963248f53e14f5548d2bf624589 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_27bf83b6a77912a8532dbb95db1926e7.setIcon(icon_b19e7963248f53e14f5548d2bf624589);
+        
+    
+        var popup_3bc99d920246feae4d2fb3e88f4fd9fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_02c51d647004d622301c2a49c15ab3af = $(`<div id="html_02c51d647004d622301c2a49c15ab3af" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-09T19:00:00Z<br/>     <b>title:</b>Wildfire in Burkina Faso 1023067<br/>      </div>`)[0];
+                popup_3bc99d920246feae4d2fb3e88f4fd9fc.setContent(html_02c51d647004d622301c2a49c15ab3af);
+            
+        
+
+        marker_27bf83b6a77912a8532dbb95db1926e7.bindPopup(popup_3bc99d920246feae4d2fb3e88f4fd9fc)
+        ;
+
+        
+    
+    
+            var marker_4eccebe69d47473e1444f285fb3f120e = L.marker(
+                [11.927440717052702, 35.434534544517554],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_351c3221b0e61d2f3f8ee5e39ec563b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4eccebe69d47473e1444f285fb3f120e.setIcon(icon_351c3221b0e61d2f3f8ee5e39ec563b4);
+        
+    
+        var popup_89646df1bb4fc12e405f65a4e8784e73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4180586aba70896e9ee0c1dc62d2d4c = $(`<div id="html_c4180586aba70896e9ee0c1dc62d2d4c" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-09T19:00:00Z<br/>     <b>title:</b>Wildfire in Ethiopia 1023065<br/>      </div>`)[0];
+                popup_89646df1bb4fc12e405f65a4e8784e73.setContent(html_c4180586aba70896e9ee0c1dc62d2d4c);
+            
+        
+
+        marker_4eccebe69d47473e1444f285fb3f120e.bindPopup(popup_89646df1bb4fc12e405f65a4e8784e73)
+        ;
+
+        
+    
+    
+            var marker_3c3088e90e24939b7c5ed9f19cc96b93 = L.marker(
+                [7.118884281784125, 26.512830754202994],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_24f76a03aa6f5db9a623fc432886e7ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3c3088e90e24939b7c5ed9f19cc96b93.setIcon(icon_24f76a03aa6f5db9a623fc432886e7ab);
+        
+    
+        var popup_22695e21578d69fcc6b44b80d2f19089 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2eacb6af99be82b36560df83f881e2ae = $(`<div id="html_2eacb6af99be82b36560df83f881e2ae" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-09T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023072<br/>      </div>`)[0];
+                popup_22695e21578d69fcc6b44b80d2f19089.setContent(html_2eacb6af99be82b36560df83f881e2ae);
+            
+        
+
+        marker_3c3088e90e24939b7c5ed9f19cc96b93.bindPopup(popup_22695e21578d69fcc6b44b80d2f19089)
+        ;
+
+        
+    
+    
+            var marker_c3ae28e1907db9c2102a464de19d8704 = L.marker(
+                [27.728718, -81.397791],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_60e7c5c2dcb72917788f9d725a729a6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c3ae28e1907db9c2102a464de19d8704.setIcon(icon_60e7c5c2dcb72917788f9d725a729a6d);
+        
+    
+        var popup_5750d0c5a4a9ba9f7dd61ba7ee865059 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_176fc17623109ec9c392e105704366bc = $(`<div id="html_176fc17623109ec9c392e105704366bc" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-09T09:17:00Z<br/>     <b>title:</b>APQ Recreation Area 1 Rx 1209 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_5750d0c5a4a9ba9f7dd61ba7ee865059.setContent(html_176fc17623109ec9c392e105704366bc);
+            
+        
+
+        marker_c3ae28e1907db9c2102a464de19d8704.bindPopup(popup_5750d0c5a4a9ba9f7dd61ba7ee865059)
+        ;
+
+        
+    
+    
+            var marker_220e197e221723624984ad4c16fc3827 = L.marker(
+                [35.2148333, -81.2988333],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_b9479fed72f6f1f064041fb3d210177d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_220e197e221723624984ad4c16fc3827.setIcon(icon_b9479fed72f6f1f064041fb3d210177d);
+        
+    
+        var popup_f3fc5e6663bc342efefcc8f75b13e742 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3690e1dfe0fe5ee6435f17d48286ed49 = $(`<div id="html_3690e1dfe0fe5ee6435f17d48286ed49" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-08T19:16:00Z<br/>     <b>title:</b>Coyote Wildfire, Gaston, North Carolina<br/>      </div>`)[0];
+                popup_f3fc5e6663bc342efefcc8f75b13e742.setContent(html_3690e1dfe0fe5ee6435f17d48286ed49);
+            
+        
+
+        marker_220e197e221723624984ad4c16fc3827.bindPopup(popup_f3fc5e6663bc342efefcc8f75b13e742)
+        ;
+
+        
+    
+    
+            var marker_2fdb82c16ed0d882637849934980fa59 = L.marker(
+                [6.495073206951486, 33.478838393856854],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_6cf1e3ef47b6d00b0470b188a2644637 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2fdb82c16ed0d882637849934980fa59.setIcon(icon_6cf1e3ef47b6d00b0470b188a2644637);
+        
+    
+        var popup_07c2d685bbe3df084f8ba96704eca7b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8bf731c49a7d3444a7ce1ecd1ec5430f = $(`<div id="html_8bf731c49a7d3444a7ce1ecd1ec5430f" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-08T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023061<br/>      </div>`)[0];
+                popup_07c2d685bbe3df084f8ba96704eca7b8.setContent(html_8bf731c49a7d3444a7ce1ecd1ec5430f);
+            
+        
+
+        marker_2fdb82c16ed0d882637849934980fa59.bindPopup(popup_07c2d685bbe3df084f8ba96704eca7b8)
+        ;
+
+        
+    
+    
+            var marker_26409e50a9a99a2ec21ae2e162a92970 = L.marker(
+                [7.352535032858098, -0.19245763638422614],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_b8b40abe33e9233f720218d593afccae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_26409e50a9a99a2ec21ae2e162a92970.setIcon(icon_b8b40abe33e9233f720218d593afccae);
+        
+    
+        var popup_35789a743ad89af958911f0f023410b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b1337d060952b97d694ccd2bdb3f38d = $(`<div id="html_6b1337d060952b97d694ccd2bdb3f38d" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-08T19:00:00Z<br/>     <b>title:</b>Wildfire in Ghana 1023075<br/>      </div>`)[0];
+                popup_35789a743ad89af958911f0f023410b2.setContent(html_6b1337d060952b97d694ccd2bdb3f38d);
+            
+        
+
+        marker_26409e50a9a99a2ec21ae2e162a92970.bindPopup(popup_35789a743ad89af958911f0f023410b2)
+        ;
+
+        
+    
+    
+            var marker_c8a1b4b3a91d1c17ea4c092aae32e436 = L.marker(
+                [46.09975, -105.874483],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_804e6851a3500fd572d1ea222a3fc1f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c8a1b4b3a91d1c17ea4c092aae32e436.setIcon(icon_804e6851a3500fd572d1ea222a3fc1f0);
+        
+    
+        var popup_af6e47b0c94c5aa726fbcd0a7ff1c3d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a02706c4c4e87e3b647ef3d5cf94df91 = $(`<div id="html_a02706c4c4e87e3b647ef3d5cf94df91" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-08T17:09:00Z<br/>     <b>title:</b>Radue Wildfire, Custer, Montana<br/>      </div>`)[0];
+                popup_af6e47b0c94c5aa726fbcd0a7ff1c3d6.setContent(html_a02706c4c4e87e3b647ef3d5cf94df91);
+            
+        
+
+        marker_c8a1b4b3a91d1c17ea4c092aae32e436.bindPopup(popup_af6e47b0c94c5aa726fbcd0a7ff1c3d6)
+        ;
+
+        
+    
+    
+            var marker_782b89dbbe1da58e51b96ea68a123749 = L.marker(
+                [27.691005, -81.348696],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_35c2735fb5015c2846020d2449168f85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_782b89dbbe1da58e51b96ea68a123749.setIcon(icon_35c2735fb5015c2846020d2449168f85);
+        
+    
+        var popup_9b02a9c44e3cd53b2dc1636cdd3c04b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1dc49d2ca311ddb0c98956541b6bbc5b = $(`<div id="html_1dc49d2ca311ddb0c98956541b6bbc5b" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-08T09:30:00Z<br/>     <b>title:</b>APQ Recreation Area 3 Rx 1208 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_9b02a9c44e3cd53b2dc1636cdd3c04b7.setContent(html_1dc49d2ca311ddb0c98956541b6bbc5b);
+            
+        
+
+        marker_782b89dbbe1da58e51b96ea68a123749.bindPopup(popup_9b02a9c44e3cd53b2dc1636cdd3c04b7)
+        ;
+
+        
+    
+    
+            var marker_ff2f2661c49d16cb9317ff8f8c28d6ec = L.marker(
+                [-18.39119076022802, 144.5772672249946],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_e46b7bfa0f121d11d4d1ffa8690ea7d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ff2f2661c49d16cb9317ff8f8c28d6ec.setIcon(icon_e46b7bfa0f121d11d4d1ffa8690ea7d5);
+        
+    
+        var popup_1a2a9891ab9f504b9787cbddcf0874f6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_528f408f72b438babfca6ae802d90c50 = $(`<div id="html_528f408f72b438babfca6ae802d90c50" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-07T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023050<br/>      </div>`)[0];
+                popup_1a2a9891ab9f504b9787cbddcf0874f6.setContent(html_528f408f72b438babfca6ae802d90c50);
+            
+        
+
+        marker_ff2f2661c49d16cb9317ff8f8c28d6ec.bindPopup(popup_1a2a9891ab9f504b9787cbddcf0874f6)
+        ;
+
+        
+    
+    
+            var marker_5c09b7e69266e3b78d5e090775920711 = L.marker(
+                [-18.76122534467231, 144.9281834960211],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_47e8cb169a0f9f7dc6370334ed700137 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5c09b7e69266e3b78d5e090775920711.setIcon(icon_47e8cb169a0f9f7dc6370334ed700137);
+        
+    
+        var popup_063043b04aace6e82b0871a95197c049 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_598e28cec305133a3a8bfffd235ccd7d = $(`<div id="html_598e28cec305133a3a8bfffd235ccd7d" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-07T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023051<br/>      </div>`)[0];
+                popup_063043b04aace6e82b0871a95197c049.setContent(html_598e28cec305133a3a8bfffd235ccd7d);
+            
+        
+
+        marker_5c09b7e69266e3b78d5e090775920711.bindPopup(popup_063043b04aace6e82b0871a95197c049)
+        ;
+
+        
+    
+    
+            var marker_8b8eef231a349e647b42682c6d9066fa = L.marker(
+                [-18.239656973522703, 144.51913124753625],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_291b054fa0e040238538a7c0a0788c68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8b8eef231a349e647b42682c6d9066fa.setIcon(icon_291b054fa0e040238538a7c0a0788c68);
+        
+    
+        var popup_f9a57a921749a64937f86b1168244601 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_423e45f3f8500cf27f37a732f0eeaf7c = $(`<div id="html_423e45f3f8500cf27f37a732f0eeaf7c" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-07T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023056<br/>      </div>`)[0];
+                popup_f9a57a921749a64937f86b1168244601.setContent(html_423e45f3f8500cf27f37a732f0eeaf7c);
+            
+        
+
+        marker_8b8eef231a349e647b42682c6d9066fa.bindPopup(popup_f9a57a921749a64937f86b1168244601)
+        ;
+
+        
+    
+    
+            var marker_f9762e48fc500988c761196ce41b0201 = L.marker(
+                [6.542698962605854, 29.101747618019537],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_17777d6e8ec00a6c9adf53872f69fee6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f9762e48fc500988c761196ce41b0201.setIcon(icon_17777d6e8ec00a6c9adf53872f69fee6);
+        
+    
+        var popup_2fa99c8dd0976164608261c5ae588b58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_53b10f53e3476e819275542849438a41 = $(`<div id="html_53b10f53e3476e819275542849438a41" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-07T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023052<br/>      </div>`)[0];
+                popup_2fa99c8dd0976164608261c5ae588b58.setContent(html_53b10f53e3476e819275542849438a41);
+            
+        
+
+        marker_f9762e48fc500988c761196ce41b0201.bindPopup(popup_2fa99c8dd0976164608261c5ae588b58)
+        ;
+
+        
+    
+    
+            var marker_bd614ee85b359b3f82c588df2aa965c5 = L.marker(
+                [9.46682316912833, 31.789937073590888],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_e16c0057cdfdf25ce610b859a7e69348 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bd614ee85b359b3f82c588df2aa965c5.setIcon(icon_e16c0057cdfdf25ce610b859a7e69348);
+        
+    
+        var popup_f0f9e7ea0f3a7bbf7a244fe42a0f8d1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_708333edc39a77a6512cc6ab7c8bc640 = $(`<div id="html_708333edc39a77a6512cc6ab7c8bc640" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-07T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023066<br/>      </div>`)[0];
+                popup_f0f9e7ea0f3a7bbf7a244fe42a0f8d1d.setContent(html_708333edc39a77a6512cc6ab7c8bc640);
+            
+        
+
+        marker_bd614ee85b359b3f82c588df2aa965c5.bindPopup(popup_f0f9e7ea0f3a7bbf7a244fe42a0f8d1d)
+        ;
+
+        
+    
+    
+            var marker_46f4a9e70178272fd495d76d23c60a4a = L.marker(
+                [27.696505, -81.358051],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_4787e16e7bba619339fa95a001b054b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_46f4a9e70178272fd495d76d23c60a4a.setIcon(icon_4787e16e7bba619339fa95a001b054b5);
+        
+    
+        var popup_7d91eb261b1fc1e06c189504c7ef039b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0aa1ddb870b1e1f6b55903d0a8d0f3cb = $(`<div id="html_0aa1ddb870b1e1f6b55903d0a8d0f3cb" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-07T08:33:00Z<br/>     <b>title:</b>APQ Recreation Area 2 Rx 1207 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_7d91eb261b1fc1e06c189504c7ef039b.setContent(html_0aa1ddb870b1e1f6b55903d0a8d0f3cb);
+            
+        
+
+        marker_46f4a9e70178272fd495d76d23c60a4a.bindPopup(popup_7d91eb261b1fc1e06c189504c7ef039b)
+        ;
+
+        
+    
+    
+            var marker_739db173512a37071f3ecaaa038216cb = L.marker(
+                [11.26797181445212, 32.50487186183727],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_62e8c22ce643e673c685b9c2a168708b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_739db173512a37071f3ecaaa038216cb.setIcon(icon_62e8c22ce643e673c685b9c2a168708b);
+        
+    
+        var popup_8beca20ff9a3a0bd6290a54441694e06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d04a0df4392a57cb5b143a40bd126538 = $(`<div id="html_d04a0df4392a57cb5b143a40bd126538" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-06T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023037<br/>      </div>`)[0];
+                popup_8beca20ff9a3a0bd6290a54441694e06.setContent(html_d04a0df4392a57cb5b143a40bd126538);
+            
+        
+
+        marker_739db173512a37071f3ecaaa038216cb.bindPopup(popup_8beca20ff9a3a0bd6290a54441694e06)
+        ;
+
+        
+    
+    
+            var marker_6773050b715e6b4167fc886f566f3d28 = L.marker(
+                [6.2984318920026565, 24.332789378305375],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_3ae337bef08f021de63e686e7b1796cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6773050b715e6b4167fc886f566f3d28.setIcon(icon_3ae337bef08f021de63e686e7b1796cc);
+        
+    
+        var popup_179eb83b2587cd8ff42d23f7adfbac2b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e92fce4fcf6d5d5706d429e5eadd378 = $(`<div id="html_9e92fce4fcf6d5d5706d429e5eadd378" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-06T19:00:00Z<br/>     <b>title:</b>Wildfire in Central African Republic 1023047<br/>      </div>`)[0];
+                popup_179eb83b2587cd8ff42d23f7adfbac2b.setContent(html_9e92fce4fcf6d5d5706d429e5eadd378);
+            
+        
+
+        marker_6773050b715e6b4167fc886f566f3d28.bindPopup(popup_179eb83b2587cd8ff42d23f7adfbac2b)
+        ;
+
+        
+    
+    
+            var marker_b8f75bfba6eb21b311abeaead926e809 = L.marker(
+                [8.526077903575507, 26.232134783837495],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_8ccd921e30636fbb2b01287f1ead795c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8f75bfba6eb21b311abeaead926e809.setIcon(icon_8ccd921e30636fbb2b01287f1ead795c);
+        
+    
+        var popup_7fa2456bbb9310c430c84f8dcbd2366e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d811cc497748ad54225fa7835a618d44 = $(`<div id="html_d811cc497748ad54225fa7835a618d44" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-06T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023049<br/>      </div>`)[0];
+                popup_7fa2456bbb9310c430c84f8dcbd2366e.setContent(html_d811cc497748ad54225fa7835a618d44);
+            
+        
+
+        marker_b8f75bfba6eb21b311abeaead926e809.bindPopup(popup_7fa2456bbb9310c430c84f8dcbd2366e)
+        ;
+
+        
+    
+    
+            var marker_21bccfab2a6961acc132adbd52011752 = L.marker(
+                [7.584673453116638, 26.99270761653973],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_36bedf924d5c6425b7f6f17fc31c4da4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_21bccfab2a6961acc132adbd52011752.setIcon(icon_36bedf924d5c6425b7f6f17fc31c4da4);
+        
+    
+        var popup_f2e74142a23c1d0a44cac69336c67c8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_845dca6c980d344a61e028e55c496ea1 = $(`<div id="html_845dca6c980d344a61e028e55c496ea1" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-06T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023059<br/>      </div>`)[0];
+                popup_f2e74142a23c1d0a44cac69336c67c8f.setContent(html_845dca6c980d344a61e028e55c496ea1);
+            
+        
+
+        marker_21bccfab2a6961acc132adbd52011752.bindPopup(popup_f2e74142a23c1d0a44cac69336c67c8f)
+        ;
+
+        
+    
+    
+            var marker_8622ec10c9cc248db6b683a084b040ff = L.marker(
+                [6.388406467172499, 24.01784544368539],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_4ca9bbdffc48ffd8899e62846f04e244 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8622ec10c9cc248db6b683a084b040ff.setIcon(icon_4ca9bbdffc48ffd8899e62846f04e244);
+        
+    
+        var popup_40547e03c0b04cc3817d9809724a3cdb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e336b48d25af443dcb71f8bd3e7c6f63 = $(`<div id="html_e336b48d25af443dcb71f8bd3e7c6f63" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-06T19:00:00Z<br/>     <b>title:</b>Wildfire in Central African Republic 1023062<br/>      </div>`)[0];
+                popup_40547e03c0b04cc3817d9809724a3cdb.setContent(html_e336b48d25af443dcb71f8bd3e7c6f63);
+            
+        
+
+        marker_8622ec10c9cc248db6b683a084b040ff.bindPopup(popup_40547e03c0b04cc3817d9809724a3cdb)
+        ;
+
+        
+    
+    
+            var marker_7dfc2a3b0adcbf91e6708be078ba67ad = L.marker(
+                [7.861274268843025, 26.5807612761476],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_bc4550e04fbf86f923842d36329877cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7dfc2a3b0adcbf91e6708be078ba67ad.setIcon(icon_bc4550e04fbf86f923842d36329877cc);
+        
+    
+        var popup_45d3401e26153795ee489ef747658244 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b65099d54314da874a59e186b27c87e9 = $(`<div id="html_b65099d54314da874a59e186b27c87e9" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-06T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023073<br/>      </div>`)[0];
+                popup_45d3401e26153795ee489ef747658244.setContent(html_b65099d54314da874a59e186b27c87e9);
+            
+        
+
+        marker_7dfc2a3b0adcbf91e6708be078ba67ad.bindPopup(popup_45d3401e26153795ee489ef747658244)
+        ;
+
+        
+    
+    
+            var marker_864b01f4e8d483b71e38c6c0fd30bb61 = L.marker(
+                [-15.013978477925678, 48.259769048327115],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_4a7ee18b058627e458a604d061e9500b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_864b01f4e8d483b71e38c6c0fd30bb61.setIcon(icon_4a7ee18b058627e458a604d061e9500b);
+        
+    
+        var popup_f75f57bd0dfd77bc7c8a2677700133f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_603f3fc2ae793aa461bd1ac94244806f = $(`<div id="html_603f3fc2ae793aa461bd1ac94244806f" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-05T19:00:00Z<br/>     <b>title:</b>Wildfire in Madagascar 1023055<br/>      </div>`)[0];
+                popup_f75f57bd0dfd77bc7c8a2677700133f1.setContent(html_603f3fc2ae793aa461bd1ac94244806f);
+            
+        
+
+        marker_864b01f4e8d483b71e38c6c0fd30bb61.bindPopup(popup_f75f57bd0dfd77bc7c8a2677700133f1)
+        ;
+
+        
+    
+    
+            var marker_c2e204f6af5aa3350fff7f1f1f298a8c = L.marker(
+                [-16.499266903005342, 48.94742710694347],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_e9069bb2c8bcbd27d4e4a0d2072e8e03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2e204f6af5aa3350fff7f1f1f298a8c.setIcon(icon_e9069bb2c8bcbd27d4e4a0d2072e8e03);
+        
+    
+        var popup_a76ebb5f9a0fc55e37ab0997a32a1e59 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2420747e89e96dea84844890563ae74 = $(`<div id="html_f2420747e89e96dea84844890563ae74" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-05T19:00:00Z<br/>     <b>title:</b>Wildfire in Madagascar 1023053<br/>      </div>`)[0];
+                popup_a76ebb5f9a0fc55e37ab0997a32a1e59.setContent(html_f2420747e89e96dea84844890563ae74);
+            
+        
+
+        marker_c2e204f6af5aa3350fff7f1f1f298a8c.bindPopup(popup_a76ebb5f9a0fc55e37ab0997a32a1e59)
+        ;
+
+        
+    
+    
+            var marker_4fe2128371d5e907b10287d35506554c = L.marker(
+                [8.330831153955994, 26.245192089062336],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_e99db8ad7b4dc64136f947b11e31938a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4fe2128371d5e907b10287d35506554c.setIcon(icon_e99db8ad7b4dc64136f947b11e31938a);
+        
+    
+        var popup_fe2b493fc9caceb1b01189d7b15da947 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f6fa2f3c9f8220b81e7ca0bbfe290c0 = $(`<div id="html_0f6fa2f3c9f8220b81e7ca0bbfe290c0" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-05T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023054<br/>      </div>`)[0];
+                popup_fe2b493fc9caceb1b01189d7b15da947.setContent(html_0f6fa2f3c9f8220b81e7ca0bbfe290c0);
+            
+        
+
+        marker_4fe2128371d5e907b10287d35506554c.bindPopup(popup_fe2b493fc9caceb1b01189d7b15da947)
+        ;
+
+        
+    
+    
+            var marker_31c7383f389957e32a16ed03e58e7204 = L.marker(
+                [-15.010448591306409, 48.251642716167694],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_16d96b9f7ca6d17e3200c7b9ea1c80af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_31c7383f389957e32a16ed03e58e7204.setIcon(icon_16d96b9f7ca6d17e3200c7b9ea1c80af);
+        
+    
+        var popup_03b0bd37eccc575272c4850fdff7c2b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9386344935839c0c51a99daec49089bb = $(`<div id="html_9386344935839c0c51a99daec49089bb" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-05T19:00:00Z<br/>     <b>title:</b>Wildfire in Madagascar 1023060<br/>      </div>`)[0];
+                popup_03b0bd37eccc575272c4850fdff7c2b8.setContent(html_9386344935839c0c51a99daec49089bb);
+            
+        
+
+        marker_31c7383f389957e32a16ed03e58e7204.bindPopup(popup_03b0bd37eccc575272c4850fdff7c2b8)
+        ;
+
+        
+    
+    
+            var marker_3d028e7dbc460f6d738562faba34c926 = L.marker(
+                [13.40207132179837, -1.7848067265268617],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_02a0dc3ebf2558750a6f3bad9eb16c1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d028e7dbc460f6d738562faba34c926.setIcon(icon_02a0dc3ebf2558750a6f3bad9eb16c1c);
+        
+    
+        var popup_672f724ac3842ad3d45139bb4d0b5e6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe0c9a9a5e71590bf36439947cc5ec82 = $(`<div id="html_fe0c9a9a5e71590bf36439947cc5ec82" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-05T19:00:00Z<br/>     <b>title:</b>Wildfire in Burkina Faso 1023063<br/>      </div>`)[0];
+                popup_672f724ac3842ad3d45139bb4d0b5e6e.setContent(html_fe0c9a9a5e71590bf36439947cc5ec82);
+            
+        
+
+        marker_3d028e7dbc460f6d738562faba34c926.bindPopup(popup_672f724ac3842ad3d45139bb4d0b5e6e)
+        ;
+
+        
+    
+    
+            var marker_ec7abfd0b97ab9633f0c9ad8d22ebcd7 = L.marker(
+                [-22.630757852696384, 146.04704875539514],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_dd9c3ba100aa3a325845085ad64718f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec7abfd0b97ab9633f0c9ad8d22ebcd7.setIcon(icon_dd9c3ba100aa3a325845085ad64718f7);
+        
+    
+        var popup_6f3e501c435779b724f54eb6d148536e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5432ab13213092b0548bcdfb00c1d11 = $(`<div id="html_f5432ab13213092b0548bcdfb00c1d11" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-04T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023034<br/>      </div>`)[0];
+                popup_6f3e501c435779b724f54eb6d148536e.setContent(html_f5432ab13213092b0548bcdfb00c1d11);
+            
+        
+
+        marker_ec7abfd0b97ab9633f0c9ad8d22ebcd7.bindPopup(popup_6f3e501c435779b724f54eb6d148536e)
+        ;
+
+        
+    
+    
+            var marker_ee70d23b5ea36fb3f9f106829b1aec15 = L.marker(
+                [9.814722542232177, 31.12897121527095],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_22dbf9431e769abb87ae482779aec603 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee70d23b5ea36fb3f9f106829b1aec15.setIcon(icon_22dbf9431e769abb87ae482779aec603);
+        
+    
+        var popup_05e84b39a02efde492ac5667cd6d5bf8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_013f70c614ad0da066d18bb026bed5b4 = $(`<div id="html_013f70c614ad0da066d18bb026bed5b4" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-04T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023035<br/>      </div>`)[0];
+                popup_05e84b39a02efde492ac5667cd6d5bf8.setContent(html_013f70c614ad0da066d18bb026bed5b4);
+            
+        
+
+        marker_ee70d23b5ea36fb3f9f106829b1aec15.bindPopup(popup_05e84b39a02efde492ac5667cd6d5bf8)
+        ;
+
+        
+    
+    
+            var marker_14402e6db382a51978fc02fba7b697ed = L.marker(
+                [-23.333426844719767, 147.29344354057656],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_194e558f2821546e0a2a6c48fc352577 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14402e6db382a51978fc02fba7b697ed.setIcon(icon_194e558f2821546e0a2a6c48fc352577);
+        
+    
+        var popup_65fb1e408bf77023335c591291f2ded4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91809c61d45078adc5f3594e0f24e334 = $(`<div id="html_91809c61d45078adc5f3594e0f24e334" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-04T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023038<br/>      </div>`)[0];
+                popup_65fb1e408bf77023335c591291f2ded4.setContent(html_91809c61d45078adc5f3594e0f24e334);
+            
+        
+
+        marker_14402e6db382a51978fc02fba7b697ed.bindPopup(popup_65fb1e408bf77023335c591291f2ded4)
+        ;
+
+        
+    
+    
+            var marker_e221dfeb7573a1e42f2ad96803f09cdc = L.marker(
+                [10.998631810272673, 1.4689737237424556],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_2e00532e31570d3113db3f1ff080cbb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e221dfeb7573a1e42f2ad96803f09cdc.setIcon(icon_2e00532e31570d3113db3f1ff080cbb3);
+        
+    
+        var popup_6d5358407ca9ace66a6c27946161f0c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3263f01097da7f21299d7463ac27b58 = $(`<div id="html_c3263f01097da7f21299d7463ac27b58" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-04T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023039<br/>      </div>`)[0];
+                popup_6d5358407ca9ace66a6c27946161f0c0.setContent(html_c3263f01097da7f21299d7463ac27b58);
+            
+        
+
+        marker_e221dfeb7573a1e42f2ad96803f09cdc.bindPopup(popup_6d5358407ca9ace66a6c27946161f0c0)
+        ;
+
+        
+    
+    
+            var marker_25a66a01590eedd03d39b68ef50ddc03 = L.marker(
+                [8.343867869265342, 25.097956992119897],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_a1dcf8f50fee560a0bb7163035501347 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_25a66a01590eedd03d39b68ef50ddc03.setIcon(icon_a1dcf8f50fee560a0bb7163035501347);
+        
+    
+        var popup_fd04b0d896bcb7d17a0d80e55ec894aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66faa5cf7547f53644b55b3e5c29e374 = $(`<div id="html_66faa5cf7547f53644b55b3e5c29e374" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-04T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023042<br/>      </div>`)[0];
+                popup_fd04b0d896bcb7d17a0d80e55ec894aa.setContent(html_66faa5cf7547f53644b55b3e5c29e374);
+            
+        
+
+        marker_25a66a01590eedd03d39b68ef50ddc03.bindPopup(popup_fd04b0d896bcb7d17a0d80e55ec894aa)
+        ;
+
+        
+    
+    
+            var marker_a3c0bdf366e6cc1f735f1145f88a62f8 = L.marker(
+                [7.454108966526715, -0.2641069620320304],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_37139dbfab74c550ad40d3d9b23b2270 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3c0bdf366e6cc1f735f1145f88a62f8.setIcon(icon_37139dbfab74c550ad40d3d9b23b2270);
+        
+    
+        var popup_e21b4e07be5afc15d1403de6b833f64e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_876bc7f9db36d5dd2b3109519fc65dc3 = $(`<div id="html_876bc7f9db36d5dd2b3109519fc65dc3" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-04T19:00:00Z<br/>     <b>title:</b>Wildfire in Ghana 1023068<br/>      </div>`)[0];
+                popup_e21b4e07be5afc15d1403de6b833f64e.setContent(html_876bc7f9db36d5dd2b3109519fc65dc3);
+            
+        
+
+        marker_a3c0bdf366e6cc1f735f1145f88a62f8.bindPopup(popup_e21b4e07be5afc15d1403de6b833f64e)
+        ;
+
+        
+    
+    
+            var marker_3e43131c63b0c5b796e26af0719a298d = L.marker(
+                [9.804490705625867, 31.355282953990077],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_1f5d3bbcf3f8d3ca44fa699e17d4ded8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3e43131c63b0c5b796e26af0719a298d.setIcon(icon_1f5d3bbcf3f8d3ca44fa699e17d4ded8);
+        
+    
+        var popup_e6ff09b0a37e2b4891560ef8249fb784 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_30a43986c1d2c3c030e94d7c26521da8 = $(`<div id="html_30a43986c1d2c3c030e94d7c26521da8" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-03T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023033<br/>      </div>`)[0];
+                popup_e6ff09b0a37e2b4891560ef8249fb784.setContent(html_30a43986c1d2c3c030e94d7c26521da8);
+            
+        
+
+        marker_3e43131c63b0c5b796e26af0719a298d.bindPopup(popup_e6ff09b0a37e2b4891560ef8249fb784)
+        ;
+
+        
+    
+    
+            var marker_855be3888c80be81096dcce04f9072dd = L.marker(
+                [8.91367827872586, 25.97610749095814],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_b22efcaf08d079e92209e4ec2effe06c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_855be3888c80be81096dcce04f9072dd.setIcon(icon_b22efcaf08d079e92209e4ec2effe06c);
+        
+    
+        var popup_1f6bd32c9d82820d58edeb69822b19fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_150bda39e56f7c37a0b427eacc86d884 = $(`<div id="html_150bda39e56f7c37a0b427eacc86d884" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-03T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023048<br/>      </div>`)[0];
+                popup_1f6bd32c9d82820d58edeb69822b19fc.setContent(html_150bda39e56f7c37a0b427eacc86d884);
+            
+        
+
+        marker_855be3888c80be81096dcce04f9072dd.bindPopup(popup_1f6bd32c9d82820d58edeb69822b19fc)
+        ;
+
+        
+    
+    
+            var marker_1c75fd991a2ad1461035c1a042ea7635 = L.marker(
+                [10.0434913616767, 31.51940914220699],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_1178ef8bfa4a9e42e483d4c36dd92e92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c75fd991a2ad1461035c1a042ea7635.setIcon(icon_1178ef8bfa4a9e42e483d4c36dd92e92);
+        
+    
+        var popup_24f169ca6bb0409f7331ca7fa6f22296 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2b29ce19e24f2394ad3489b5a5d4ecd = $(`<div id="html_b2b29ce19e24f2394ad3489b5a5d4ecd" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-02T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023032<br/>      </div>`)[0];
+                popup_24f169ca6bb0409f7331ca7fa6f22296.setContent(html_b2b29ce19e24f2394ad3489b5a5d4ecd);
+            
+        
+
+        marker_1c75fd991a2ad1461035c1a042ea7635.bindPopup(popup_24f169ca6bb0409f7331ca7fa6f22296)
+        ;
+
+        
+    
+    
+            var marker_0b56a88f91233e5ee013073f1907fecc = L.marker(
+                [37.295268, -83.396702],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_eb8e9bc2701f63dd9d4e074d269dc18b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b56a88f91233e5ee013073f1907fecc.setIcon(icon_eb8e9bc2701f63dd9d4e074d269dc18b);
+        
+    
+        var popup_9f9cbd780fdc4a9606900a8ba411508a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed5c0608c7e9f8929c7562cbf35bbb21 = $(`<div id="html_ed5c0608c7e9f8929c7562cbf35bbb21" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-02T12:01:00Z<br/>     <b>title:</b>KDF - Confluence 2 Wildfire, Leslie, Kentucky<br/>      </div>`)[0];
+                popup_9f9cbd780fdc4a9606900a8ba411508a.setContent(html_ed5c0608c7e9f8929c7562cbf35bbb21);
+            
+        
+
+        marker_0b56a88f91233e5ee013073f1907fecc.bindPopup(popup_9f9cbd780fdc4a9606900a8ba411508a)
+        ;
+
+        
+    
+    
+            var marker_e68454d72712368a1aa24d92645ef0ef = L.marker(
+                [9.058944514693914, 25.857188772134748],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_a413521fc9f71c0d3ac2024c4c7f9d80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e68454d72712368a1aa24d92645ef0ef.setIcon(icon_a413521fc9f71c0d3ac2024c4c7f9d80);
+        
+    
+        var popup_b17ba017952642f6e5558b906495251f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_72b8fe20e4f4f1863ecfefd7afa54a38 = $(`<div id="html_72b8fe20e4f4f1863ecfefd7afa54a38" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-01T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023031<br/>      </div>`)[0];
+                popup_b17ba017952642f6e5558b906495251f.setContent(html_72b8fe20e4f4f1863ecfefd7afa54a38);
+            
+        
+
+        marker_e68454d72712368a1aa24d92645ef0ef.bindPopup(popup_b17ba017952642f6e5558b906495251f)
+        ;
+
+        
+    
+    
+            var marker_4e76cc33c209ad5ba5e9e6a6a3cb5353 = L.marker(
+                [11.204894940655628, 1.4243613126509973],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_65280bfc84c523f5988280a3c162a776 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4e76cc33c209ad5ba5e9e6a6a3cb5353.setIcon(icon_65280bfc84c523f5988280a3c162a776);
+        
+    
+        var popup_664005b65399127ee1b3c96a79a32cf4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e6372b761ab5a966fa74231030053bd2 = $(`<div id="html_e6372b761ab5a966fa74231030053bd2" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-01T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023040<br/>      </div>`)[0];
+                popup_664005b65399127ee1b3c96a79a32cf4.setContent(html_e6372b761ab5a966fa74231030053bd2);
+            
+        
+
+        marker_4e76cc33c209ad5ba5e9e6a6a3cb5353.bindPopup(popup_664005b65399127ee1b3c96a79a32cf4)
+        ;
+
+        
+    
+    
+            var marker_3e7f6ed4d0036286b1d99d8f7dbd7abf = L.marker(
+                [-23.24470629732928, 147.38338373857528],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_ac5b6e1c3a27eac05e884dee6695f37c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3e7f6ed4d0036286b1d99d8f7dbd7abf.setIcon(icon_ac5b6e1c3a27eac05e884dee6695f37c);
+        
+    
+        var popup_a275989d6baba55eff4c5c79622413a2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_02782ef43efb313b19d86930e5bf2e6c = $(`<div id="html_02782ef43efb313b19d86930e5bf2e6c" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-01T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023045<br/>      </div>`)[0];
+                popup_a275989d6baba55eff4c5c79622413a2.setContent(html_02782ef43efb313b19d86930e5bf2e6c);
+            
+        
+
+        marker_3e7f6ed4d0036286b1d99d8f7dbd7abf.bindPopup(popup_a275989d6baba55eff4c5c79622413a2)
+        ;
+
+        
+    
+    
+            var marker_8217fbce62efcffc4dd63b4f49d30477 = L.marker(
+                [6.68794714581094, 23.76126743814646],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_d11b70eacb737459a71efd054594aa17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8217fbce62efcffc4dd63b4f49d30477.setIcon(icon_d11b70eacb737459a71efd054594aa17);
+        
+    
+        var popup_e463e20535f32c92afeef7bbc825712a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_663a9f991f2ff9ab9bc40705ed221986 = $(`<div id="html_663a9f991f2ff9ab9bc40705ed221986" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-12-01T19:00:00Z<br/>     <b>title:</b>Wildfire in Central African Republic 1023046<br/>      </div>`)[0];
+                popup_e463e20535f32c92afeef7bbc825712a.setContent(html_663a9f991f2ff9ab9bc40705ed221986);
+            
+        
+
+        marker_8217fbce62efcffc4dd63b4f49d30477.bindPopup(popup_e463e20535f32c92afeef7bbc825712a)
+        ;
+
+        
+    
+    
+            var marker_eac9c393c20f12eeba18a3dd05cb005a = L.marker(
+                [13.801758684355518, -2.252660385121848],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_a34b5a5e083552c83e8b5ebd20b3b95b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eac9c393c20f12eeba18a3dd05cb005a.setIcon(icon_a34b5a5e083552c83e8b5ebd20b3b95b);
+        
+    
+        var popup_c485d448be49bf24d1f5a2e84494e895 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_70bb99466e7e98cc37882dcb45ce1950 = $(`<div id="html_70bb99466e7e98cc37882dcb45ce1950" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-30T19:00:00Z<br/>     <b>title:</b>Wildfire in Burkina Faso 1023028<br/>      </div>`)[0];
+                popup_c485d448be49bf24d1f5a2e84494e895.setContent(html_70bb99466e7e98cc37882dcb45ce1950);
+            
+        
+
+        marker_eac9c393c20f12eeba18a3dd05cb005a.bindPopup(popup_c485d448be49bf24d1f5a2e84494e895)
+        ;
+
+        
+    
+    
+            var marker_fc9d22e70ad0c3d612d12911b14cd6a7 = L.marker(
+                [11.087548262534849, 1.3899577956551668],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_f08d7119d190970ee0f6a51436050bf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc9d22e70ad0c3d612d12911b14cd6a7.setIcon(icon_f08d7119d190970ee0f6a51436050bf0);
+        
+    
+        var popup_0174d177de287ec654d6f5b48b61bf58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9123ffa3cbc82a49f38fefe6c8d71636 = $(`<div id="html_9123ffa3cbc82a49f38fefe6c8d71636" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-30T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023029<br/>      </div>`)[0];
+                popup_0174d177de287ec654d6f5b48b61bf58.setContent(html_9123ffa3cbc82a49f38fefe6c8d71636);
+            
+        
+
+        marker_fc9d22e70ad0c3d612d12911b14cd6a7.bindPopup(popup_0174d177de287ec654d6f5b48b61bf58)
+        ;
+
+        
+    
+    
+            var marker_f7707daa72972c1ee6c20bd7e1337d5a = L.marker(
+                [7.863153113313824, 27.033398796458364],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_90781de64fe41ef4ba068642227b09f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f7707daa72972c1ee6c20bd7e1337d5a.setIcon(icon_90781de64fe41ef4ba068642227b09f8);
+        
+    
+        var popup_8b7b782912aa8611dbc271184b5550b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f76eac31598a491f576a6bf8d4c4f76c = $(`<div id="html_f76eac31598a491f576a6bf8d4c4f76c" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-30T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023043<br/>      </div>`)[0];
+                popup_8b7b782912aa8611dbc271184b5550b4.setContent(html_f76eac31598a491f576a6bf8d4c4f76c);
+            
+        
+
+        marker_f7707daa72972c1ee6c20bd7e1337d5a.bindPopup(popup_8b7b782912aa8611dbc271184b5550b4)
+        ;
+
+        
+    
+    
+            var marker_18e5935b2a6d5820fa2a830ac0ca7549 = L.marker(
+                [5.6664695016741105, 31.36970133669082],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_f6a3b8494363eb91cdf74438fd644a75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18e5935b2a6d5820fa2a830ac0ca7549.setIcon(icon_f6a3b8494363eb91cdf74438fd644a75);
+        
+    
+        var popup_4517cfb5decb28ddb2996b7f31bfd083 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b77ec8388ff1fa087296e3bf74af5e8d = $(`<div id="html_b77ec8388ff1fa087296e3bf74af5e8d" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-29T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023044<br/>      </div>`)[0];
+                popup_4517cfb5decb28ddb2996b7f31bfd083.setContent(html_b77ec8388ff1fa087296e3bf74af5e8d);
+            
+        
+
+        marker_18e5935b2a6d5820fa2a830ac0ca7549.bindPopup(popup_4517cfb5decb28ddb2996b7f31bfd083)
+        ;
+
+        
+    
+    
+            var marker_57086b27489b5100f164dcd062bc3cda = L.marker(
+                [-4.872225373763623, -41.30435530951966],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_38d4f491e7b1ff80735cb8098c60352c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_57086b27489b5100f164dcd062bc3cda.setIcon(icon_38d4f491e7b1ff80735cb8098c60352c);
+        
+    
+        var popup_5efbbde0c2a46f9902e18e034719a130 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_882a2238c3ec1b89ad21d82ddcbd05d5 = $(`<div id="html_882a2238c3ec1b89ad21d82ddcbd05d5" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-28T19:00:00Z<br/>     <b>title:</b>Wildfire in Brazil 1023024<br/>      </div>`)[0];
+                popup_5efbbde0c2a46f9902e18e034719a130.setContent(html_882a2238c3ec1b89ad21d82ddcbd05d5);
+            
+        
+
+        marker_57086b27489b5100f164dcd062bc3cda.bindPopup(popup_5efbbde0c2a46f9902e18e034719a130)
+        ;
+
+        
+    
+    
+            var marker_896c650f9681abac31969fc3b0545f5b = L.marker(
+                [11.104340231235808, 1.413790381722872],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_f86ec472cbd9136578ce3061500057f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_896c650f9681abac31969fc3b0545f5b.setIcon(icon_f86ec472cbd9136578ce3061500057f9);
+        
+    
+        var popup_8b2060083a93ac0810368d90523558b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e61c5fe097456ae6c5e90ddb5f75df8 = $(`<div id="html_0e61c5fe097456ae6c5e90ddb5f75df8" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-28T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023036<br/>      </div>`)[0];
+                popup_8b2060083a93ac0810368d90523558b9.setContent(html_0e61c5fe097456ae6c5e90ddb5f75df8);
+            
+        
+
+        marker_896c650f9681abac31969fc3b0545f5b.bindPopup(popup_8b2060083a93ac0810368d90523558b9)
+        ;
+
+        
+    
+    
+            var marker_d31a20a26e73345269f2ff9f327a2327 = L.marker(
+                [6.73280154990643, 33.44075166231789],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_001ffdcde55d2335a073afdd8f313eeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d31a20a26e73345269f2ff9f327a2327.setIcon(icon_001ffdcde55d2335a073afdd8f313eeb);
+        
+    
+        var popup_8f2170fedca60b349a6a49bb77172777 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93c01f5569cc76edf5d63669fa07a95e = $(`<div id="html_93c01f5569cc76edf5d63669fa07a95e" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-27T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023021<br/>      </div>`)[0];
+                popup_8f2170fedca60b349a6a49bb77172777.setContent(html_93c01f5569cc76edf5d63669fa07a95e);
+            
+        
+
+        marker_d31a20a26e73345269f2ff9f327a2327.bindPopup(popup_8f2170fedca60b349a6a49bb77172777)
+        ;
+
+        
+    
+    
+            var marker_a16622be7f4c91a4f7e6a391d249ca91 = L.marker(
+                [11.25405729886014, 1.561732760687401],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_5282c59e2ba493d20d2d22be742f3483 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a16622be7f4c91a4f7e6a391d249ca91.setIcon(icon_5282c59e2ba493d20d2d22be742f3483);
+        
+    
+        var popup_6e0fb6b19d20b506a7a34d37bd85b254 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62d843d1c29b5ededaef0ff9bdc0d442 = $(`<div id="html_62d843d1c29b5ededaef0ff9bdc0d442" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-27T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023030<br/>      </div>`)[0];
+                popup_6e0fb6b19d20b506a7a34d37bd85b254.setContent(html_62d843d1c29b5ededaef0ff9bdc0d442);
+            
+        
+
+        marker_a16622be7f4c91a4f7e6a391d249ca91.bindPopup(popup_6e0fb6b19d20b506a7a34d37bd85b254)
+        ;
+
+        
+    
+    
+            var marker_d94fa91634eaddd9af2306049e73dda8 = L.marker(
+                [14.606564360734026, 1.2532275733734233],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_8af1ea70fe1ec159da511e9c20692574 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d94fa91634eaddd9af2306049e73dda8.setIcon(icon_8af1ea70fe1ec159da511e9c20692574);
+        
+    
+        var popup_9816532141851c11195fc714dd289548 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2678d2b48ca3403c9a62f4cdd3c7a8fa = $(`<div id="html_2678d2b48ca3403c9a62f4cdd3c7a8fa" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-26T19:00:00Z<br/>     <b>title:</b>Wildfire in Niger 1023016<br/>      </div>`)[0];
+                popup_9816532141851c11195fc714dd289548.setContent(html_2678d2b48ca3403c9a62f4cdd3c7a8fa);
+            
+        
+
+        marker_d94fa91634eaddd9af2306049e73dda8.bindPopup(popup_9816532141851c11195fc714dd289548)
+        ;
+
+        
+    
+    
+            var marker_c741e5baba0ad01984f33f8c243241ae = L.marker(
+                [10.138395558959116, 30.522765128706713],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_d43c8c99bf3a2e427ab93fb5e78730d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c741e5baba0ad01984f33f8c243241ae.setIcon(icon_d43c8c99bf3a2e427ab93fb5e78730d0);
+        
+    
+        var popup_3de24dd6143089b511a5fcca9b0c04a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97e330f427c274eb870a8926a323c670 = $(`<div id="html_97e330f427c274eb870a8926a323c670" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-26T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023018<br/>      </div>`)[0];
+                popup_3de24dd6143089b511a5fcca9b0c04a7.setContent(html_97e330f427c274eb870a8926a323c670);
+            
+        
+
+        marker_c741e5baba0ad01984f33f8c243241ae.bindPopup(popup_3de24dd6143089b511a5fcca9b0c04a7)
+        ;
+
+        
+    
+    
+            var marker_b63486e1c225045ee33c7a00545611bb = L.marker(
+                [1.2072489626413836, -55.95724575255249],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_0811612d40efc466322b080c91f2abfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b63486e1c225045ee33c7a00545611bb.setIcon(icon_0811612d40efc466322b080c91f2abfa);
+        
+    
+        var popup_d18badbd8491521a22639ec6774f8e40 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4db14b8dd2e4098f824706802fcf1df8 = $(`<div id="html_4db14b8dd2e4098f824706802fcf1df8" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-26T19:00:00Z<br/>     <b>title:</b>Wildfire in Brazil 1023020<br/>      </div>`)[0];
+                popup_d18badbd8491521a22639ec6774f8e40.setContent(html_4db14b8dd2e4098f824706802fcf1df8);
+            
+        
+
+        marker_b63486e1c225045ee33c7a00545611bb.bindPopup(popup_d18badbd8491521a22639ec6774f8e40)
+        ;
+
+        
+    
+    
+            var marker_c745494074713f7064e5c02367336d05 = L.marker(
+                [9.471200505885474, 31.49442308162692],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_4e9b5d57114a26390521467035e5d435 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c745494074713f7064e5c02367336d05.setIcon(icon_4e9b5d57114a26390521467035e5d435);
+        
+    
+        var popup_6b594556b088aebc2c0936ed8967c182 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82d243053bf3ff6b7687a8cf290a6700 = $(`<div id="html_82d243053bf3ff6b7687a8cf290a6700" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-26T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023027<br/>      </div>`)[0];
+                popup_6b594556b088aebc2c0936ed8967c182.setContent(html_82d243053bf3ff6b7687a8cf290a6700);
+            
+        
+
+        marker_c745494074713f7064e5c02367336d05.bindPopup(popup_6b594556b088aebc2c0936ed8967c182)
+        ;
+
+        
+    
+    
+            var marker_4a9329d7fc1fe48b5c543d5508f2ee60 = L.marker(
+                [12.864921725474193, -0.056627237862728906],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_ee563d1c70539eca2ba5b977927973b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4a9329d7fc1fe48b5c543d5508f2ee60.setIcon(icon_ee563d1c70539eca2ba5b977927973b4);
+        
+    
+        var popup_4958077c37cb4396636fb77f0f0a0bd2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f0c51d5e6415b94db66fee665162752 = $(`<div id="html_5f0c51d5e6415b94db66fee665162752" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-25T19:00:00Z<br/>     <b>title:</b>Wildfire in Burkina Faso 1023025<br/>      </div>`)[0];
+                popup_4958077c37cb4396636fb77f0f0a0bd2.setContent(html_5f0c51d5e6415b94db66fee665162752);
+            
+        
+
+        marker_4a9329d7fc1fe48b5c543d5508f2ee60.bindPopup(popup_4958077c37cb4396636fb77f0f0a0bd2)
+        ;
+
+        
+    
+    
+            var marker_ad691dc92067a96ec3e2a23d4b5652d3 = L.marker(
+                [-30.743143766656775, 115.36471239741813],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_6f1c9bfcbe200f576cf4d0aa3785160d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ad691dc92067a96ec3e2a23d4b5652d3.setIcon(icon_6f1c9bfcbe200f576cf4d0aa3785160d);
+        
+    
+        var popup_304fe8268634d321d6d1469294fa90ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea9d5ad9fdb9291724389678c1836bd3 = $(`<div id="html_ea9d5ad9fdb9291724389678c1836bd3" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023001<br/>      </div>`)[0];
+                popup_304fe8268634d321d6d1469294fa90ec.setContent(html_ea9d5ad9fdb9291724389678c1836bd3);
+            
+        
+
+        marker_ad691dc92067a96ec3e2a23d4b5652d3.bindPopup(popup_304fe8268634d321d6d1469294fa90ec)
+        ;
+
+        
+    
+    
+            var marker_aaff7844e263e20da8a8f9f9533dd64c = L.marker(
+                [14.570139383298864, 1.1754940450117686],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_bbbf0a677549a2dd766880be7a8317ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aaff7844e263e20da8a8f9f9533dd64c.setIcon(icon_bbbf0a677549a2dd766880be7a8317ba);
+        
+    
+        var popup_910995491162cbd3088be4bcce499446 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78d4a821e35a9950cf51ef6187f193cb = $(`<div id="html_78d4a821e35a9950cf51ef6187f193cb" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T19:00:00Z<br/>     <b>title:</b>Wildfire in Niger 1023007<br/>      </div>`)[0];
+                popup_910995491162cbd3088be4bcce499446.setContent(html_78d4a821e35a9950cf51ef6187f193cb);
+            
+        
+
+        marker_aaff7844e263e20da8a8f9f9533dd64c.bindPopup(popup_910995491162cbd3088be4bcce499446)
+        ;
+
+        
+    
+    
+            var marker_5ab6d93122e20e85a98f07a435b73844 = L.marker(
+                [-16.22908768278416, 143.49380708924042],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_99f5a0b49ce03df9907015beaa7d5a5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ab6d93122e20e85a98f07a435b73844.setIcon(icon_99f5a0b49ce03df9907015beaa7d5a5f);
+        
+    
+        var popup_bcd77d27ce497751d8786b1580a84cda = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_596ead97e9d5dd06dee7456a4dee8857 = $(`<div id="html_596ead97e9d5dd06dee7456a4dee8857" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023008<br/>      </div>`)[0];
+                popup_bcd77d27ce497751d8786b1580a84cda.setContent(html_596ead97e9d5dd06dee7456a4dee8857);
+            
+        
+
+        marker_5ab6d93122e20e85a98f07a435b73844.bindPopup(popup_bcd77d27ce497751d8786b1580a84cda)
+        ;
+
+        
+    
+    
+            var marker_43c1cb97a24aa49c99bd38eb5498bd5e = L.marker(
+                [-16.074671983871216, 142.52593342304095],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_aed8af2fd8bbc02990df73dc6ad9ea15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_43c1cb97a24aa49c99bd38eb5498bd5e.setIcon(icon_aed8af2fd8bbc02990df73dc6ad9ea15);
+        
+    
+        var popup_ec2985537f7f62921f02a9a340bd7d77 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_947f0960addcc9bea1a9e1054509a578 = $(`<div id="html_947f0960addcc9bea1a9e1054509a578" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023010<br/>      </div>`)[0];
+                popup_ec2985537f7f62921f02a9a340bd7d77.setContent(html_947f0960addcc9bea1a9e1054509a578);
+            
+        
+
+        marker_43c1cb97a24aa49c99bd38eb5498bd5e.bindPopup(popup_ec2985537f7f62921f02a9a340bd7d77)
+        ;
+
+        
+    
+    
+            var marker_feb974c803036cfcab54f44218a77eb1 = L.marker(
+                [9.702943692983492, 25.847952653342677],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_0ed02e01c49d6746c3b69344b32abbe9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_feb974c803036cfcab54f44218a77eb1.setIcon(icon_0ed02e01c49d6746c3b69344b32abbe9);
+        
+    
+        var popup_8b381305fdddadb40d4c5154b2ee8ca9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9c7aab8a7e817001e6aa88293798e90d = $(`<div id="html_9c7aab8a7e817001e6aa88293798e90d" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023022<br/>      </div>`)[0];
+                popup_8b381305fdddadb40d4c5154b2ee8ca9.setContent(html_9c7aab8a7e817001e6aa88293798e90d);
+            
+        
+
+        marker_feb974c803036cfcab54f44218a77eb1.bindPopup(popup_8b381305fdddadb40d4c5154b2ee8ca9)
+        ;
+
+        
+    
+    
+            var marker_532afabccb529dc55dbed1f0b17b5e57 = L.marker(
+                [10.164449120797494, 32.649243793587075],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_e58f5d8a4247f98772f489e946b0e869 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_532afabccb529dc55dbed1f0b17b5e57.setIcon(icon_e58f5d8a4247f98772f489e946b0e869);
+        
+    
+        var popup_b2128c8ae2df2bda28e13bfb692f6014 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd709f1e2e66bebeaae56d9e71decd26 = $(`<div id="html_dd709f1e2e66bebeaae56d9e71decd26" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023023<br/>      </div>`)[0];
+                popup_b2128c8ae2df2bda28e13bfb692f6014.setContent(html_dd709f1e2e66bebeaae56d9e71decd26);
+            
+        
+
+        marker_532afabccb529dc55dbed1f0b17b5e57.bindPopup(popup_b2128c8ae2df2bda28e13bfb692f6014)
+        ;
+
+        
+    
+    
+            var marker_474b72adfd9b6946d2a9fed6aec77303 = L.marker(
+                [35.113722, -105.977628],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_fa788b43c39d134a775b0754ba3c1c11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_474b72adfd9b6946d2a9fed6aec77303.setIcon(icon_fa788b43c39d134a775b0754ba3c1c11);
+        
+    
+        var popup_18500ef7c6ec4b343d1738d349ed6d74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d500cbe687962b2edec66ca78b78cdf = $(`<div id="html_0d500cbe687962b2edec66ca78b78cdf" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-24T17:30:00Z<br/>     <b>title:</b>B ANAYA Wildfire, Santa Fe, New Mexico<br/>      </div>`)[0];
+                popup_18500ef7c6ec4b343d1738d349ed6d74.setContent(html_0d500cbe687962b2edec66ca78b78cdf);
+            
+        
+
+        marker_474b72adfd9b6946d2a9fed6aec77303.bindPopup(popup_18500ef7c6ec4b343d1738d349ed6d74)
+        ;
+
+        
+    
+    
+            var marker_f280b869433d05625a2af6e53411df6c = L.marker(
+                [-2.8474266629272096, -46.83790375896735],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_f8c37f1eb77bca10dc6326a256be7e33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f280b869433d05625a2af6e53411df6c.setIcon(icon_f8c37f1eb77bca10dc6326a256be7e33);
+        
+    
+        var popup_6d6665fa75eea9cf64a34aa992349583 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59b5bfbc32f4b55240216e30867eaa86 = $(`<div id="html_59b5bfbc32f4b55240216e30867eaa86" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-23T19:00:00Z<br/>     <b>title:</b>Wildfire in Brazil 1023015<br/>      </div>`)[0];
+                popup_6d6665fa75eea9cf64a34aa992349583.setContent(html_59b5bfbc32f4b55240216e30867eaa86);
+            
+        
+
+        marker_f280b869433d05625a2af6e53411df6c.bindPopup(popup_6d6665fa75eea9cf64a34aa992349583)
+        ;
+
+        
+    
+    
+            var marker_4430bb5861aeacb6e8e83fa34589ced8 = L.marker(
+                [11.074854423968375, 1.5926074754366433],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_56edecd39b2744f09f3356a9237aaf9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4430bb5861aeacb6e8e83fa34589ced8.setIcon(icon_56edecd39b2744f09f3356a9237aaf9b);
+        
+    
+        var popup_d60e82a638bc1c3de951270ee95971f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3bf7b56f6103faa01e3c1cc47d09dcc6 = $(`<div id="html_3bf7b56f6103faa01e3c1cc47d09dcc6" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-23T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023026<br/>      </div>`)[0];
+                popup_d60e82a638bc1c3de951270ee95971f8.setContent(html_3bf7b56f6103faa01e3c1cc47d09dcc6);
+            
+        
+
+        marker_4430bb5861aeacb6e8e83fa34589ced8.bindPopup(popup_d60e82a638bc1c3de951270ee95971f8)
+        ;
+
+        
+    
+    
+            var marker_d87831b33b75f8a9fc7e668f2751c603 = L.marker(
+                [-17.7090187051562, 143.94776644345987],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_8417a30f4bbdd4f4b3a9586c27aa05b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d87831b33b75f8a9fc7e668f2751c603.setIcon(icon_8417a30f4bbdd4f4b3a9586c27aa05b0);
+        
+    
+        var popup_7416b999d9b43574c488cf0eaf539424 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89046de20b4d20dba50dd06970c70572 = $(`<div id="html_89046de20b4d20dba50dd06970c70572" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-22T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1022999<br/>      </div>`)[0];
+                popup_7416b999d9b43574c488cf0eaf539424.setContent(html_89046de20b4d20dba50dd06970c70572);
+            
+        
+
+        marker_d87831b33b75f8a9fc7e668f2751c603.bindPopup(popup_7416b999d9b43574c488cf0eaf539424)
+        ;
+
+        
+    
+    
+            var marker_b5181973e7d7c558b67e602881ddc00b = L.marker(
+                [-18.765806986902636, 144.5749199320524],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_1eec4506b046c3d3523becea5e287cab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b5181973e7d7c558b67e602881ddc00b.setIcon(icon_1eec4506b046c3d3523becea5e287cab);
+        
+    
+        var popup_4295d69dc44aa0e42763faf125a3978f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4cee3d03c7e82c28b52640c70e765a17 = $(`<div id="html_4cee3d03c7e82c28b52640c70e765a17" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-22T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023003<br/>      </div>`)[0];
+                popup_4295d69dc44aa0e42763faf125a3978f.setContent(html_4cee3d03c7e82c28b52640c70e765a17);
+            
+        
+
+        marker_b5181973e7d7c558b67e602881ddc00b.bindPopup(popup_4295d69dc44aa0e42763faf125a3978f)
+        ;
+
+        
+    
+    
+            var marker_a297b3db226a75ad925a54fc132b0e73 = L.marker(
+                [-19.433796738112033, 145.4622870619928],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_5344ee912d28c071042a97330901f745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a297b3db226a75ad925a54fc132b0e73.setIcon(icon_5344ee912d28c071042a97330901f745);
+        
+    
+        var popup_ff9bcbcc4b0fe0f2ece8e652a58626ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d112305a17189070b022ebbd8c350bf3 = $(`<div id="html_d112305a17189070b022ebbd8c350bf3" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-22T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023013<br/>      </div>`)[0];
+                popup_ff9bcbcc4b0fe0f2ece8e652a58626ce.setContent(html_d112305a17189070b022ebbd8c350bf3);
+            
+        
+
+        marker_a297b3db226a75ad925a54fc132b0e73.bindPopup(popup_ff9bcbcc4b0fe0f2ece8e652a58626ce)
+        ;
+
+        
+    
+    
+            var marker_cd8d81f0948e2de10d89f0fbf4d2497b = L.marker(
+                [10.915030925499263, 1.2933157413496095],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_c35e6c4a4ebf8414bdab8c243ef10aee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cd8d81f0948e2de10d89f0fbf4d2497b.setIcon(icon_c35e6c4a4ebf8414bdab8c243ef10aee);
+        
+    
+        var popup_ad0741a631d7db5a520d5a2ff2d770b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a04264c6cfc1827d6bb3bba0eaacb5a = $(`<div id="html_0a04264c6cfc1827d6bb3bba0eaacb5a" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-22T19:00:00Z<br/>     <b>title:</b>Wildfire in Benin 1023017<br/>      </div>`)[0];
+                popup_ad0741a631d7db5a520d5a2ff2d770b2.setContent(html_0a04264c6cfc1827d6bb3bba0eaacb5a);
+            
+        
+
+        marker_cd8d81f0948e2de10d89f0fbf4d2497b.bindPopup(popup_ad0741a631d7db5a520d5a2ff2d770b2)
+        ;
+
+        
+    
+    
+            var marker_9af36c20822ab80c87d3079c196fba0c = L.marker(
+                [37.842495, -82.297147],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_22ad3ebfaf90888ba7406f60d3e45789 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9af36c20822ab80c87d3079c196fba0c.setIcon(icon_22ad3ebfaf90888ba7406f60d3e45789);
+        
+    
+        var popup_22bd6d5aa518d5f7b6241b8fcb3724c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f80cb518e2e825a346073996f7cd7ea9 = $(`<div id="html_f80cb518e2e825a346073996f7cd7ea9" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-22T12:46:00Z<br/>     <b>title:</b>Newsome Ridge 2 Wildfire, Mingo, West Virginia<br/>      </div>`)[0];
+                popup_22bd6d5aa518d5f7b6241b8fcb3724c0.setContent(html_f80cb518e2e825a346073996f7cd7ea9);
+            
+        
+
+        marker_9af36c20822ab80c87d3079c196fba0c.bindPopup(popup_22bd6d5aa518d5f7b6241b8fcb3724c0)
+        ;
+
+        
+    
+    
+            var marker_8277354ddba4aae96b09070f79db5816 = L.marker(
+                [-14.676136157330934, 142.8941569191651],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_24d8373070bb36466195bb66a829cbc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8277354ddba4aae96b09070f79db5816.setIcon(icon_24d8373070bb36466195bb66a829cbc8);
+        
+    
+        var popup_4e75c258358005e0cbeff242b716519d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_601f545eebb9000fe89f969ca983829f = $(`<div id="html_601f545eebb9000fe89f969ca983829f" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1022995<br/>      </div>`)[0];
+                popup_4e75c258358005e0cbeff242b716519d.setContent(html_601f545eebb9000fe89f969ca983829f);
+            
+        
+
+        marker_8277354ddba4aae96b09070f79db5816.bindPopup(popup_4e75c258358005e0cbeff242b716519d)
+        ;
+
+        
+    
+    
+            var marker_b37201f3954a20e5e4fb414f104746b5 = L.marker(
+                [-18.186810768593325, 142.35940250277594],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_06316d5fe2b0b8297fc9feb36c8002f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b37201f3954a20e5e4fb414f104746b5.setIcon(icon_06316d5fe2b0b8297fc9feb36c8002f8);
+        
+    
+        var popup_8c808e0dcb822b617b1a7dbbb8b4d66a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffc3f5e8e0b0491df6240084c2106aae = $(`<div id="html_ffc3f5e8e0b0491df6240084c2106aae" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1022997<br/>      </div>`)[0];
+                popup_8c808e0dcb822b617b1a7dbbb8b4d66a.setContent(html_ffc3f5e8e0b0491df6240084c2106aae);
+            
+        
+
+        marker_b37201f3954a20e5e4fb414f104746b5.bindPopup(popup_8c808e0dcb822b617b1a7dbbb8b4d66a)
+        ;
+
+        
+    
+    
+            var marker_e19e5e0dd1dd89f77a76d224d75002bc = L.marker(
+                [-14.746979921020836, 143.38044244094593],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_fce88c5da62f79f68bd5d4e80e04b026 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e19e5e0dd1dd89f77a76d224d75002bc.setIcon(icon_fce88c5da62f79f68bd5d4e80e04b026);
+        
+    
+        var popup_24349a028abb7d4867b9ee43ab69319a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a8ffc54d161597c142423ade5833b9a = $(`<div id="html_1a8ffc54d161597c142423ade5833b9a" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1022994<br/>      </div>`)[0];
+                popup_24349a028abb7d4867b9ee43ab69319a.setContent(html_1a8ffc54d161597c142423ade5833b9a);
+            
+        
+
+        marker_e19e5e0dd1dd89f77a76d224d75002bc.bindPopup(popup_24349a028abb7d4867b9ee43ab69319a)
+        ;
+
+        
+    
+    
+            var marker_cbaeb35bb9ba001d649d07f70ed925cc = L.marker(
+                [-18.07902842021259, 143.6856828861156],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_c23c1a57a3c94f7cdd37e51ffe5d4933 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cbaeb35bb9ba001d649d07f70ed925cc.setIcon(icon_c23c1a57a3c94f7cdd37e51ffe5d4933);
+        
+    
+        var popup_097bc31fdb957f8c16e4ddd02b219454 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bed30dee4de231af1a37213d9a46d6ec = $(`<div id="html_bed30dee4de231af1a37213d9a46d6ec" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023006<br/>      </div>`)[0];
+                popup_097bc31fdb957f8c16e4ddd02b219454.setContent(html_bed30dee4de231af1a37213d9a46d6ec);
+            
+        
+
+        marker_cbaeb35bb9ba001d649d07f70ed925cc.bindPopup(popup_097bc31fdb957f8c16e4ddd02b219454)
+        ;
+
+        
+    
+    
+            var marker_5e457510a4ad796aa31d14bf61d3a3f3 = L.marker(
+                [14.680242043028302, -7.629614860645167],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_b0c10bf57a8a9e8b80bd2c7d0a6a70b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e457510a4ad796aa31d14bf61d3a3f3.setIcon(icon_b0c10bf57a8a9e8b80bd2c7d0a6a70b3);
+        
+    
+        var popup_32a43c8f695216d9e71401ee1221ad27 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad8dd9c3b511a0b2f70e1658a07d6e42 = $(`<div id="html_ad8dd9c3b511a0b2f70e1658a07d6e42" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T19:00:00Z<br/>     <b>title:</b>Wildfire in Mali 1023011<br/>      </div>`)[0];
+                popup_32a43c8f695216d9e71401ee1221ad27.setContent(html_ad8dd9c3b511a0b2f70e1658a07d6e42);
+            
+        
+
+        marker_5e457510a4ad796aa31d14bf61d3a3f3.bindPopup(popup_32a43c8f695216d9e71401ee1221ad27)
+        ;
+
+        
+    
+    
+            var marker_f57cbb1dd846429afe83d18b99128b8b = L.marker(
+                [10.465076145475773, 31.818724597843083],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_aacf3890611c1a00c5dd4315e2f82d58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f57cbb1dd846429afe83d18b99128b8b.setIcon(icon_aacf3890611c1a00c5dd4315e2f82d58);
+        
+    
+        var popup_cbb640222c487be6b56af860f2345297 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a293d1a4ecc7f955715039e943217ae9 = $(`<div id="html_a293d1a4ecc7f955715039e943217ae9" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T19:00:00Z<br/>     <b>title:</b>Wildfire in Sudan 1023014<br/>      </div>`)[0];
+                popup_cbb640222c487be6b56af860f2345297.setContent(html_a293d1a4ecc7f955715039e943217ae9);
+            
+        
+
+        marker_f57cbb1dd846429afe83d18b99128b8b.bindPopup(popup_cbb640222c487be6b56af860f2345297)
+        ;
+
+        
+    
+    
+            var marker_d7daa416924e3d549eaf23ad0f03ddbd = L.marker(
+                [31.2363, -92.61505],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_49ec5aabc267b81ed7abe32dfaa5fa0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d7daa416924e3d549eaf23ad0f03ddbd.setIcon(icon_49ec5aabc267b81ed7abe32dfaa5fa0b);
+        
+    
+        var popup_97058b9a028ace5c5aa0886c51f5dc60 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43cf8001fc1254376ff0550432781e89 = $(`<div id="html_43cf8001fc1254376ff0550432781e89" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T09:29:00Z<br/>     <b>title:</b>RX CALE C-16 Wildfire, Rapides, Louisiana<br/>      </div>`)[0];
+                popup_97058b9a028ace5c5aa0886c51f5dc60.setContent(html_43cf8001fc1254376ff0550432781e89);
+            
+        
+
+        marker_d7daa416924e3d549eaf23ad0f03ddbd.bindPopup(popup_97058b9a028ace5c5aa0886c51f5dc60)
+        ;
+
+        
+    
+    
+            var marker_d324d35807a9e2c1943a1a1aadc26707 = L.marker(
+                [27.740791, -81.391006],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_db0ef1957631619452fad81fee08e9d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d324d35807a9e2c1943a1a1aadc26707.setIcon(icon_db0ef1957631619452fad81fee08e9d2);
+        
+    
+        var popup_d1a64681372352e10a562205138d56f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2630637971667165c4545db9741514c2 = $(`<div id="html_2630637971667165c4545db9741514c2" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-21T09:05:00Z<br/>     <b>title:</b>APQ Recreation Area 1 Rx 1121 Wildfire, Polk, Florida<br/>      </div>`)[0];
+                popup_d1a64681372352e10a562205138d56f9.setContent(html_2630637971667165c4545db9741514c2);
+            
+        
+
+        marker_d324d35807a9e2c1943a1a1aadc26707.bindPopup(popup_d1a64681372352e10a562205138d56f9)
+        ;
+
+        
+    
+    
+            var marker_cb1c9ea61bc8dc2bcd7cc639270cc641 = L.marker(
+                [63.88807752468611, -22.37065948356308],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_7991b892eb14534ce3c0bb0cecb310da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cb1c9ea61bc8dc2bcd7cc639270cc641.setIcon(icon_7991b892eb14534ce3c0bb0cecb310da);
+        
+    
+        var popup_6d906ba7f13aed2f7e185713aa7e3cd1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1139a8946c588ef7e3d506dedabbbc8 = $(`<div id="html_c1139a8946c588ef7e3d506dedabbbc8" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-20T19:00:00Z<br/>     <b>title:</b>Wildfire in Iceland 1022991<br/>      </div>`)[0];
+                popup_6d906ba7f13aed2f7e185713aa7e3cd1.setContent(html_c1139a8946c588ef7e3d506dedabbbc8);
+            
+        
+
+        marker_cb1c9ea61bc8dc2bcd7cc639270cc641.bindPopup(popup_6d906ba7f13aed2f7e185713aa7e3cd1)
+        ;
+
+        
+    
+    
+            var marker_a65ee51b0bdadfed93eb59b880cee65d = L.marker(
+                [-19.689047091535578, 142.50636128720723],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_67a40dbd9e0a14281ff45185053a39c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a65ee51b0bdadfed93eb59b880cee65d.setIcon(icon_67a40dbd9e0a14281ff45185053a39c1);
+        
+    
+        var popup_e2a3f7177ee3eb26b2e47bd5bd4b495f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45316ad5d1483f8461661929331f6bd4 = $(`<div id="html_45316ad5d1483f8461661929331f6bd4" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-20T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1022996<br/>      </div>`)[0];
+                popup_e2a3f7177ee3eb26b2e47bd5bd4b495f.setContent(html_45316ad5d1483f8461661929331f6bd4);
+            
+        
+
+        marker_a65ee51b0bdadfed93eb59b880cee65d.bindPopup(popup_e2a3f7177ee3eb26b2e47bd5bd4b495f)
+        ;
+
+        
+    
+    
+            var marker_8c1d078db2d412d159c9a30215cd37fe = L.marker(
+                [-16.238549964987, 143.08040682757823],
+                {
+}
+            ).addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+    
+            var icon_bfcfb8e7ca4860dc92dbd1bc310808e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8c1d078db2d412d159c9a30215cd37fe.setIcon(icon_bfcfb8e7ca4860dc92dbd1bc310808e2);
+        
+    
+        var popup_6425348861fc12cd96a4dcd37631fd1a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_19c6cdebe27f126d39c9f3cc6f262475 = $(`<div id="html_19c6cdebe27f126d39c9f3cc6f262475" style="width: 100.0%; height: 100.0%;">     <b>date:</b>2024-11-20T19:00:00Z<br/>     <b>title:</b>Wildfire in Australia 1023004<br/>      </div>`)[0];
+                popup_6425348861fc12cd96a4dcd37631fd1a.setContent(html_19c6cdebe27f126d39c9f3cc6f262475);
+            
+        
+
+        marker_8c1d078db2d412d159c9a30215cd37fe.bindPopup(popup_6425348861fc12cd96a4dcd37631fd1a)
+        ;
+
+        
+    
+    
+            var heat_map_b3cbb38565a64517a7f5aa95686cc9d3 = L.heatLayer(
+                [[33.8451, -95.5874], [34.088933, -112.200767], [27.669495, -81.332645], [13.871897560840004, 12.542507299986001], [8.940257014081748, -3.7793502188578807], [6.353746851121146, 29.241926081242337], [-21.788925568901377, 145.76573525724984], [-19.968007239287235, 138.8801871658071], [27.682825, -81.328526], [7.125505061161163, 26.628084592014233], [9.048220600285456, -3.674344876939678], [27.731616, -81.398735], [31.01, -92.923], [8.295831819972008, 26.338688185352478], [9.576710596045281, 29.74832521540173], [33.761389, -95.951944], [12.328266420489443, 20.38477446899014], [13.574523301996058, -4.086337655737058], [27.694373, -81.343675], [34.06343, -118.69642], [-20.944109924452626, 147.53236806064731], [6.4903658282521866, 28.16562823440938], [9.850968371808957, -4.6365430552399705], [11.927440717052702, 35.434534544517554], [7.118884281784125, 26.512830754202994], [27.728718, -81.397791], [35.2148333, -81.2988333], [6.495073206951486, 33.478838393856854], [7.352535032858098, -0.19245763638422614], [46.09975, -105.874483], [27.691005, -81.348696], [-18.39119076022802, 144.5772672249946], [-18.76122534467231, 144.9281834960211], [-18.239656973522703, 144.51913124753625], [6.542698962605854, 29.101747618019537], [9.46682316912833, 31.789937073590888], [27.696505, -81.358051], [11.26797181445212, 32.50487186183727], [6.2984318920026565, 24.332789378305375], [8.526077903575507, 26.232134783837495], [7.584673453116638, 26.99270761653973], [6.388406467172499, 24.01784544368539], [7.861274268843025, 26.5807612761476], [-15.013978477925678, 48.259769048327115], [-16.499266903005342, 48.94742710694347], [8.330831153955994, 26.245192089062336], [-15.010448591306409, 48.251642716167694], [13.40207132179837, -1.7848067265268617], [-22.630757852696384, 146.04704875539514], [9.814722542232177, 31.12897121527095], [-23.333426844719767, 147.29344354057656], [10.998631810272673, 1.4689737237424556], [8.343867869265342, 25.097956992119897], [7.454108966526715, -0.2641069620320304], [9.804490705625867, 31.355282953990077], [8.91367827872586, 25.97610749095814], [10.0434913616767, 31.51940914220699], [37.295268, -83.396702], [9.058944514693914, 25.857188772134748], [11.204894940655628, 1.4243613126509973], [-23.24470629732928, 147.38338373857528], [6.68794714581094, 23.76126743814646], [13.801758684355518, -2.252660385121848], [11.087548262534849, 1.3899577956551668], [7.863153113313824, 27.033398796458364], [5.6664695016741105, 31.36970133669082], [-4.872225373763623, -41.30435530951966], [11.104340231235808, 1.413790381722872], [6.73280154990643, 33.44075166231789], [11.25405729886014, 1.561732760687401], [14.606564360734026, 1.2532275733734233], [10.138395558959116, 30.522765128706713], [1.2072489626413836, -55.95724575255249], [9.471200505885474, 31.49442308162692], [12.864921725474193, -0.056627237862728906], [-30.743143766656775, 115.36471239741813], [14.570139383298864, 1.1754940450117686], [-16.22908768278416, 143.49380708924042], [-16.074671983871216, 142.52593342304095], [9.702943692983492, 25.847952653342677], [10.164449120797494, 32.649243793587075], [35.113722, -105.977628], [-2.8474266629272096, -46.83790375896735], [11.074854423968375, 1.5926074754366433], [-17.7090187051562, 143.94776644345987], [-18.765806986902636, 144.5749199320524], [-19.433796738112033, 145.4622870619928], [10.915030925499263, 1.2933157413496095], [37.842495, -82.297147], [-14.676136157330934, 142.8941569191651], [-18.186810768593325, 142.35940250277594], [-14.746979921020836, 143.38044244094593], [-18.07902842021259, 143.6856828861156], [14.680242043028302, -7.629614860645167], [10.465076145475773, 31.818724597843083], [31.2363, -92.61505], [27.740791, -81.391006], [63.88807752468611, -22.37065948356308], [-19.689047091535578, 142.50636128720723], [-16.238549964987, 143.08040682757823]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_b3cbb38565a64517a7f5aa95686cc9d3.addTo(map_39fcc25c35461af9e77d6130662a2667);
+        
+</script>
+</html>
